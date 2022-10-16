@@ -184,16 +184,40 @@ export default function Header() {
                 and trolleys. . Laundry is available on premises.
               </div>
 
-    
               <div className="about__section__secondentry_card">
-                <div className="about__section__secondentry_card__text">500+</div>
-                <div className="about__section__secondentry_card__heading">Projects</div>
-                <div className="about__section__secondentry_card__para">Over 500 lexury villas for“Home Away From Home” experience</div>
+                <div className="about__section__secondentry_card__text">
+                  500+
+                </div>
+                <div className="about__section__secondentry_card__heading">
+                  Projects
+                </div>
+                <div className="about__section__secondentry_card__para">
+                  Over 500 lexury villas for“Home Away From Home” experience
+                </div>
               </div>
+              <div className="about__section__secondentry_card">
+                <div className="about__section__secondentry_card__text">
+                  40+
+                </div>
+                <div className="about__section__secondentry_card__heading">
+                  Locations
+                </div>
+                <div className="about__section__secondentry_card__para">
+                  luxury villas and private holiday homes, from all across
+                </div>
               </div>
-           
-
-
+              <div className="about__section__secondentry_card">
+                <div className="about__section__secondentry_card__text">
+                  24/7
+                </div>
+                <div className="about__section__secondentry_card__heading">
+                  Help
+                </div>
+                <div className="about__section__secondentry_card__para">
+                  24/7 Help service for all customers to guide and support
+                </div>
+              </div>
+            </div>
           </div>
           <div className="about__section__thirdentry">
             <div className="about__section__thirdentry__img">
@@ -203,7 +227,34 @@ export default function Header() {
                 alt=""
               />
             </div>
+
+            <div className="about__section__thirdentry__bottom">
+              <div className="about__section__thirdentry__text">
+                {" "}
+                Most luxury houses for more discering Customers
+              </div>
+              <div className="about__section__thirdentry__buttom">
+                Read more
+              </div>
+            </div>
           </div>
+        </div>
+      </div>
+
+      <div className="farm__house">
+        <div className="farm__house__content">
+          <div className="farm__house__content__left">
+            <div className="farm__house__content__left__heading">
+              Farm House plots
+            </div>
+            <div className="farm__house__content__left__para">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry.Lorem Ipsum is simply
+              dummy text of the printing and typesetting industry. Lorem Ipsum
+              has been the industry.
+            </div>
+          </div>
+          <div className="about__section__thirdentry__buttom">Contact Us</div>
         </div>
       </div>
     </>
