@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,100;1,300;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;1,200;1,300;1,400&display=swap');
 *,
 *::after,
 *::before {
@@ -140,11 +141,30 @@ margin: 5em 0em;
 
 }
 .feature__content__card{
+  transition: all .3s ease-in-out;
 background: linear-gradient(180deg, #F1F1F1 0%, rgba(241, 241, 241, 0) 100%);
   padding: 3em  2em;
   border-radius: 9px;
   margin: 1%;
   width: 30%;
+  max-height: 400px;
+}
+.feature__content__card__info{
+  padding-left: 1.6em;
+}
+.feature__content__card:hover{
+  background: #B29C3F;
+  color: white;
+  transition:  0.3 all ease-in-out;
+box-shadow: 13px 15px 54px rgba(178, 156, 63, 0.56);
+
+  .feature__content__card__svg2 {
+    display: flex;
+  }
+  .feature__content__card__svg {
+    display: none;
+  }
+  
 }
 
 
@@ -155,7 +175,89 @@ background: linear-gradient(180deg, #F1F1F1 0%, rgba(241, 241, 241, 0) 100%);
 
 .feature__content__card__para{
   font-family: "Montserrat", sans-serif;
+  padding-top: 20px;
 }
 
+.about__section{
+  width: 100%;
+}
+
+.about__section__weaper{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
 
 
+}
+
+.about__section__secondentry__img img{
+  max-height: 800px;
+  width: 100%;
+
+}
+.about__section__firstentry{
+  margin: 1%;
+  // width: 30%;
+}
+.about__section__thirdentry{
+  margin: 1%;
+  width: 25%;
+}
+.about__section__thirdentry__img img{
+  max-height: 460px;
+  margin: 1%;
+  margin-bottom: 10em;
+  width: 100%;
+}
+.about__section__firstentry__top__img img{
+
+  max-height: 290px;
+  margin: 1%;
+}
+
+.about__section__secondentry{
+  width: 35%;
+  position: relative;
+}
+.about__section__secondentry__overlay{
+  position: absolute;
+  top: 15%;
+  left: 15%;
+
+}
+.about__section__secondentry__heading{
+  color: white;
+  font-size: 40px;
+}
+.about__section__secondentry__para{
+  width: 90%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: white;
+  padding: 1em 0em;
+  padding-bottom: 2em;
+}
+.about__section__secondentry_card{
+width: 100%;
+align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+padding-right:3em;
+color: white;
+}
+.about__section__secondentry_card__text{
+  font-size: 25px;
+}
+.about__section__secondentry_card__heading{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.about__section__secondentry_card__para{
+  font-family: 'Poppins', sans-serif;
+  padding: 5px 0em;
+  width: 70%;
+}

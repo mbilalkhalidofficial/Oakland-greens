@@ -1,7 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import headerback from "../assets/headerback.png";
+import aboutfirst from "../assets/aboutfirst.png";
+import aboutsecond from "../assets/aboutsecond.png";
 import headerback2 from "../assets/headerback2.png";
+import aboutsecondbox from "../assets/aboutsecondbox.png";
+import aboutlast from "../assets/aboutlast.png";
 import oaklandlogo from "../assets/oaklandlogo.png";
 import map from "../assets/map.svg";
 import map2 from "../assets/map2.svg";
@@ -105,7 +109,7 @@ export default function Header() {
                   alt=""
                 />
               </div>
-              <div className="feature__content__card__info">Feature 1</div>
+              <div className="feature__content__card__info">Feature 2</div>
             </div>
             <div className="feature__content__card__para">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -128,11 +132,76 @@ export default function Header() {
                   alt=""
                 />
               </div>
-              <div className="feature__content__card__info">Feature 1</div>
+              <div className="feature__content__card__info">Feature 3</div>
             </div>
             <div className="feature__content__card__para">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="about__section">
+        <div className="about__section__weaper">
+          <div className="about__section__firstentry">
+            <div className="about__section__firstentry__top__img">
+              <img
+                className="about__section__firstentry__top__image"
+                src={aboutfirst}
+                alt=""
+              />
+            </div>
+            <div className="about__section__firstentry__top__img">
+              <img
+                className="about__section__firstentry__top__image"
+                src={aboutsecond}
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="about__section__secondentry">
+            <div className="about__section__secondentry__img">
+              <img
+                className="about__section__secondentry__image"
+                src={aboutsecondbox}
+                alt=""
+              />
+            </div>
+            <div className="about__section__secondentry__overlay">
+              <div className="about__section__secondentry__heading">
+                About Us
+              </div>
+              <div className="about__section__secondentry__para">
+                Dream Home is a gated community with a great location. Located
+                downtown, you’re within walking distance of Parks, and the best
+                shopping, dining and entertainment Getting around is a breeze,
+                with easy access to freeways, buses and trolleys. . Laundry is
+                available on premises.Dream Home is a gated community with a
+                great location. Located downtown, you’re within walking distance
+                of Parks, and the best shopping, dining and entertainment
+                Getting around is a breeze, with easy access to freeways, buses
+                and trolleys. . Laundry is available on premises.
+              </div>
+
+    
+              <div className="about__section__secondentry_card">
+                <div className="about__section__secondentry_card__text">500+</div>
+                <div className="about__section__secondentry_card__heading">Projects</div>
+                <div className="about__section__secondentry_card__para">Over 500 lexury villas for“Home Away From Home” experience</div>
+              </div>
+              </div>
+           
+
+
+          </div>
+          <div className="about__section__thirdentry">
+            <div className="about__section__thirdentry__img">
+              <img
+                className="about__section__thirdentry__image"
+                src={aboutlast}
+                alt=""
+              />
             </div>
           </div>
         </div>
