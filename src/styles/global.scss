@@ -23,7 +23,6 @@ body {
 }
 .oakland_section__weaper__backimg {
   width: 85%;
-
 }
 .oakland_section__weaper__backimgs {
   width: 100%;
@@ -267,8 +266,8 @@ body {
   font-weight: 400;
 }
 
-.about__section__thirdentry__buttom{
-width: 30%;
+.about__section__thirdentry__buttom {
+  width: 30%;
   padding: 9px 2em;
   cursor: pointer;
   border-radius: 10px;
@@ -277,47 +276,44 @@ width: 30%;
   font-family: "Montserrat", sans-serif;
   width: fit-content;
 }
-.farm__house__content{
+.farm__house__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-max-width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0em 9em;
   width: 100%;
-
 }
-.farm__house__content__left__heading{
-font-size: 34px;
-
+.farm__house__content__left__heading {
+  font-size: 34px;
 }
-.farm__house__content__left{
+.farm__house__content__left {
   width: 50%;
 }
-.farm__house{
+.farm__house {
   margin: 5em 0em;
 }
-.farm__house__content__left__para{
-  font-family: 'Inter', sans-serif; 
+.farm__house__content__left__para {
+  font-family: "Inter", sans-serif;
   padding: 2em 0em;
 }
 
-.farm__house__feature{
+.farm__house__feature {
   position: absolute;
   width: 100%;
-
 }
-.farm__house__feature__section{
+.farm__house__feature__section {
   position: relative;
   width: 100%;
   height: 100%;
   padding: 0;
   background: url("./assets/feature.png"), no-repeat;
   background-size: cover;
-max-width: 1440px;
-margin: 0 auto;
+  max-width: 1440px;
+  margin: 0 auto;
 }
-.farm__house__feature__section__heading{
+.farm__house__feature__section__heading {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -325,43 +321,166 @@ margin: 0 auto;
   font-size: 35px;
 }
 
-.farm__house__feature__section__waeaper{
+.farm__house__feature__section__waeaper {
   display: flex;
- 
 
   border: 1px solid red;
   margin: 0 auto;
   border-bottom-left-radius: 30px;
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
-  width:80%;
+  width: 80%;
   margin-top: 3em;
   margin-bottom: 3em;
   justify-content: space-between;
 }
-.farm__house__feature__section__waeaper__svg{
-  padding:  5em  4em;
+.farm__house__feature__section__waeaper__svg {
+  padding: 5em 4em;
   width: 20%;
 }
-.farm__house__feature__section__waeaper__svg__two{
+.farm__house__feature__section__waeaper__svg__two {
   width: 20%;
-  
 }
-.farm__house__feature__section__waeaper__svg__two:hover{
+.farm__house__feature__section__waeaper__svg__two:hover {
   // background-color: #b29c3f;
   border-bottom-left-radius: 30px;
-background-color: #b29c3f;
+  background-color: #b29c3f;
   border-top-left-radius: 30px;
-.farm__house__feature__section__waeaper__svg22{
-  display: flex;
+  .farm__house__feature__section__waeaper__svg22 {
+    display: flex;
+  }
+  .farm__house__feature__section__waeaper__svg {
+    display: none;
+  }
 }
-.farm__house__feature__section__waeaper__svg{
+.farm__house__feature__section__waeaper__svg22 {
   display: none;
+  padding: 5em 4em;
+  width: 20%;
 }
 
+.location__Section {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
-.farm__house__feature__section__waeaper__svg22{
-  display: none;
-  padding:  5em  4em;
-  width: 20%;
+.location__Section__para{
+  width: 70%;
+  padding: 1.4em 0px;
+  font-family: "Inter", sans-serif;
+}
+.location__Section__text{
+  font-size: 32px;
+
+}
+.location__Section__img{
+  width: 100%;
+  height: 100%;
+
+}
+.location__Section__img img{
+  width: 80%;max-height: 500px;
+}
+.luxury{
+  width: 100%;
+  margin: 8em 0em;
+}
+.luxury__section{
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+width: 100%;
+  margin-top: 3em;
+padding-left: 8em;
+  margin-bottom: 3em;
+
+}
+.luxury__section__left__heading{
+  line-height: 42px;
+  font-weight: 400;
+  font-size: 35px;
+  width: 55%;
+
+}
+.luxury__section__left__para{
+  font-family: "Montserrat", sans-serif;
+  padding: 2em 0px;
+}
+
+.luxury__section__left{
+width: 50%;
+}
+
+.luxury__section__left__heading span{
+  color: #b29c3f;
+}
+.luxury__section__left__button{
+  width: 30%;
+  padding: 9px 2em;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #b29c3f;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  width: fit-content;
+}
+.luxury__section__right{
+  width: 50%;
+  position: relative;
+
+  
+}
+.luxury__section__right__imgs{
+  position: absolute;
+  top: 2%;
+  right: 50%;
+  
+ 
+}
+// .luxury__section__right__img{
+// width: 100%;  
+// height: 100%;
+  
+// }
+.luxury__section__right__img img{
+width: 45%;
+max-height: 700px;
+margin: 0 auto;
+display: flex;
+margin-top: 2.5em;
+margin-left: 8.7em;
+opacity: 0.46;
+}
+.luxury__section__right__imgs img{
+width: 100%;
+z-index: -999;
+max-height: 280px;
+margin: 0 auto;
+margin-top: 4em;
+margin-left: 3em;
+display: flex;
+
+}
+.luxury__section__right__imgss{
+  width: 100%;
+  height: 100%;
+}
+.luxury__section__right__imgss img{
+width: 44%;
+z-index: -999;
+height: 430px;
+max-height: 430px;
+margin: 0 auto;
+top: 0;
+margin-bottom: 2em;
+margin-left: 12em;
+position: absolute;
+display: flex;
+opacity: 0.14;
 }

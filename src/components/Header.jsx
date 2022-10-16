@@ -264,7 +264,7 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="farm__house__feature">
+      {/* <div className="farm__house__feature">
         <div className="farm__house__feature__section">
           <div className="farm__house__feature__section__heading">
             Farm House Feature
@@ -339,7 +339,7 @@ export default function Header() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
