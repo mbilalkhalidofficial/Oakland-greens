@@ -23,7 +23,7 @@ body {
 }
 .oakland_section__weaper__backimg {
   width: 85%;
-  opacity: 0.7;
+
 }
 .oakland_section__weaper__backimgs {
   width: 100%;
@@ -302,3 +302,66 @@ font-size: 34px;
   padding: 2em 0em;
 }
 
+.farm__house__feature{
+  position: absolute;
+  width: 100%;
+
+}
+.farm__house__feature__section{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background: url("./assets/feature.png"), no-repeat;
+  background-size: cover;
+max-width: 1440px;
+margin: 0 auto;
+}
+.farm__house__feature__section__heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+}
+
+.farm__house__feature__section__waeaper{
+  display: flex;
+ 
+
+  border: 1px solid red;
+  margin: 0 auto;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  width:80%;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  justify-content: space-between;
+}
+.farm__house__feature__section__waeaper__svg{
+  padding:  5em  4em;
+  width: 20%;
+}
+.farm__house__feature__section__waeaper__svg__two{
+  width: 20%;
+  
+}
+.farm__house__feature__section__waeaper__svg__two:hover{
+  // background-color: #b29c3f;
+  border-bottom-left-radius: 30px;
+background-color: #b29c3f;
+  border-top-left-radius: 30px;
+.farm__house__feature__section__waeaper__svg22{
+  display: flex;
+}
+.farm__house__feature__section__waeaper__svg{
+  display: none;
+}
+
+}
+.farm__house__feature__section__waeaper__svg22{
+  display: none;
+  padding:  5em  4em;
+  width: 20%;
+}

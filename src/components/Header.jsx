@@ -10,6 +10,12 @@ import oaklandlogo from "../assets/oaklandlogo.png";
 import map from "../assets/map.svg";
 import map2 from "../assets/map2.svg";
 
+import first from "../assets/first.svg";
+import first2 from "../assets/first2.svg";
+import first3 from "../assets/first3.svg";
+import firstfour from "../assets/firstfour.svg";
+import first23 from "../assets/first23.svg";
+
 export default function Header() {
   return (
     <>
@@ -255,6 +261,83 @@ export default function Header() {
             </div>
           </div>
           <div className="about__section__thirdentry__buttom">Contact Us</div>
+        </div>
+      </div>
+
+      <div className="farm__house__feature">
+        <div className="farm__house__feature__section">
+          <div className="farm__house__feature__section__heading">
+            Farm House Feature
+          </div>
+
+          <div className="farm__house__feature__section__waeaper">
+            <div className="farm__house__feature__section__waeaper__svg__two">
+              <div className="farm__house__feature__section__waeaper__svg">
+                <img
+                  className="farm__house__feature__section__waeaper__image"
+                  src={first}
+                  alt=""
+                />
+              </div>
+
+              <div className="farm__house__feature__section__waeaper__svg22">
+                <img
+                  className="farm__house__feature__section__waeaper__images"
+                  src={first23}
+                  alt=""
+                />
+                <div className="s">sds</div>
+              </div>
+            </div>
+            <div className="farm__house__feature__section__waeaper__svg__two">
+              <div className="farm__house__feature__section__waeaper__svg">
+                <img
+                  className="farm__house__feature__section__waeaper__image"
+                  src={first2}
+                  alt=""
+                />
+              </div>
+              <div className="farm__house__feature__section__waeaper__svg22">
+                <img
+                  className="farm__house__feature__section__waeaper__images"
+                  src={first23}
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="farm__house__feature__section__waeaper__svg__two">
+              <div className="farm__house__feature__section__waeaper__svg">
+                <img
+                  className="farm__house__feature__section__waeaper__image"
+                  src={first}
+                  alt=""
+                />
+              </div>
+              <div className="farm__house__feature__section__waeaper__svg22">
+                <img
+                  className="farm__house__feature__section__waeaper__images"
+                  src={first23}
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="farm__house__feature__section__waeaper__svg__two">
+              <div className="farm__house__feature__section__waeaper__svg">
+                <img
+                  className="farm__house__feature__section__waeaper__image"
+                  src={first}
+                  alt=""
+                />
+              </div>
+              <div className="farm__house__feature__section__waeaper__svg22">
+                <img
+                  className="farm__house__feature__section__waeaper__images"
+                  src={first23}
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
