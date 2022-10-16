@@ -1,12 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,100;1,300;1,400&display=swap");
 *,
 *::after,
 *::before {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: sans-serif; // replace this with font family
+  font-family: "Prata", serif;
 }
 body {
   margin: 0;
   padding: 0;
   font-size: 16px;
 }
+.oakland_section {
+  width: 100%;
+}
+
+.oakland_section {
+  width: 100%;
+  height: 100%;
+}
+.oakland_section__weaper__backimg {
+  width: 85%;
+  opacity: 0.7;
+}
+.oakland_section__weaper__backimgs {
+  width: 100%;
+  max-height: 700px;
+  border-top-right-radius: 120px;
+}
+.oakland_section__weaper__backimgs img {
+  width: 100%;
+  max-height: 400px;
+}
+.oakland_section__weaper {
+  position: relative;
+}
+.oakland_section__weaper__overlay {
+  position: absolute;
+  top: 5%;
+  left: 12%;
+  width: 70%;
+}
+.navbar__style {
+  padding: 1em;
+}
+.oakland_section__weaper__overlay__navbar__left__logo {
+  cursor: pointer;
+}
+.oakland_section__weaper__overlay__navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__style {
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+.oakland_section__weaper__overlay__main_heading__para {
+  padding: 3em 0em;
+}
+.oakland_section__weaper__overlay__two {
+  display: flex;
+  padding: 2em 0em;
+}
+.oakland_section__weaper__overlay__main_heading {
+  width: 85%;
+}
+.oakland_section__weaper__overlay__entry {
+  color: white;
+  margin-top: 7em;
+  width: 52%;
+}
+.oakland_section__weaper__overlay__main_heading {
+  font-size: 36px;
+}
+.oakland_section__weaper__overlay__main_heading__para {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+.headerback__secon {
+  width: 50%;
+}
+.headerback__second img {
+  position: absolute;
+  // bottom: 0%;
+  right: 8%;
+  top: 22%;
+  height: 560px;
+
+  max-width: 540px;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+}
+.headerback__second__image {
+  width: 100%;
+}
+.feature__content__card__svg2 {
+  display: none;
+}
+
+
+.oakland_section__weaper__overlay__two__left {
+  padding: 12px 3em;
+  margin-right: 1em;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #b29c3f;
+  font-family: "Montserrat", sans-serif;
+}
+.oakland_section__weaper__overlay__two__right {
+  padding: 12px 3em;
+  margin-right: 1em;
+  border-radius: 10px;
+  background-color: white;
+  color: #b29c3f;
+  font-weight: bolder;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.feature{
+ width: 100%;
+margin: 5em 0em;
+
+}
+.feature__content{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  padding: 0em 5em;
+
+
+}
+.feature__content__card{
+background: linear-gradient(180deg, #F1F1F1 0%, rgba(241, 241, 241, 0) 100%);
+  padding: 3em  2em;
+  border-radius: 9px;
+  margin: 1%;
+  width: 30%;
+}
+
+
+.feature__content__card_two__entry{
+  display: flex;
+  align-items: center;
+}
+
+.feature__content__card__para{
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
