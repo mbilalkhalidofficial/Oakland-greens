@@ -9,7 +9,7 @@ export default function index() {
         <div className="luxury__section">
           <div className="luxury__section__left">
             <div className="luxury__section__left__heading">
-              Our luxury  <span>upcoming</span> for more discering Customers
+         Our luxury  <span>upcoming</span> for more discering Customers
             </div>
             <div className="luxury__section__left__para">
               Dream Home is a gated community with a great location. Located

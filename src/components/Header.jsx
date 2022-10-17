@@ -237,7 +237,7 @@ export default function Header() {
             <div className="about__section__thirdentry__bottom">
               <div className="about__section__thirdentry__text">
                 {" "}
-                Most luxury houses for more discering Customers
+               Most luxury houses for more discering Customers
               </div>
               <div className="about__section__thirdentry__buttom">
                 Read more

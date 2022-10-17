@@ -94,9 +94,15 @@ body {
   max-width: 540px;
   border-top-left-radius: 70px;
   border-top-right-radius: 70px;
+  transition: all .4s ease-in-out;
+}
+.headerback__second img:hover{
+  transform: scale(1.05);
 }
 .headerback__second__image {
   width: 100%;
+  
+
 }
 .feature__content__card__svg2 {
   display: none;
@@ -110,6 +116,17 @@ body {
   background-color: #b29c3f;
   font-family: "Montserrat", sans-serif;
 }
+.oakland_section__weaper__overlay__two__left:hover{
+  padding: 12px 3em;
+  margin-right: 1em;
+  border-radius: 10px;
+  background-color: white;
+  color: #b29c3f;
+  font-weight: bolder;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
 .oakland_section__weaper__overlay__two__right {
   padding: 12px 3em;
   margin-right: 1em;
@@ -120,6 +137,15 @@ body {
   font-size: 16px;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
+}
+.oakland_section__weaper__overlay__two__right:hover{
+  padding: 12px 3em;
+  margin-right: 1em;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #b29c3f;
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
 
 .feature {
@@ -204,6 +230,7 @@ body {
   max-height: 290px;
   margin: 1%;
 }
+
 
 .about__section__secondentry {
   width: 35%;
@@ -484,7 +511,31 @@ position: absolute;
 display: flex;
 opacity: 0.14;
 }
+@media(max-width:1000px){
+  .luxury__section{
+    width: 100%;
+    flex-direction: column;
+    padding: 0em 5em;
+margin-bottom: 33em;
+  }
 
+  .luxury__section__left{
+    width: 100%;
+  }
+  .luxury__section__right{
+    width: 100%;
+    margin-left: 6em;
+  }
+  .luxury__section__right__imgs img {
+max-height: 458px;
+}
+.luxury__section__left__heading{
+width: 90%;
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+}
 
 @media(max-width:950px){
   .feature__content{
@@ -495,12 +546,47 @@ opacity: 0.14;
 .feature__content__card{
     width: 40%;
   }
+  .farm__house__content__left{
+    width: 100%;
+  }
+  .farm__house__content{
+    flex-direction: column;
+  }
+  .farm__house__content__left__heading{
+    text-align: center;
+  }
+  .farm__house__content{
+padding: 0em 3em;
+text-align: center;
+  }
+
+}
+@media(max-width:950px){
+.luxury__section__right__img img{
+  display: none;
+  
+}
+.luxury__section__right__imgss img{
+  display: none;
+}
 
 }
 @media(max-width:660px){
   .feature__content__card{
     width: 80%;
     margin: 2%;
+  }
+  .farm__house__content{
+    padding: 0em 2em;
+  }
+  .farm__house__content__left__heading{
+    font-size: 30px;
+  }
+  .location__Section__para{
+    width: 80%;
+  }
+  .location__Section__img img{
+    width: 90%;
   }
 
 }
@@ -509,5 +595,20 @@ opacity: 0.14;
     width: 90%;
     margin: 2%;
   }
+  .farm__house__content__left__heading{
+    font-size: 28px;
+  }
+ .location__Section__para{
+font-size: 14px;
+
+ }
+ .location__Section__img img{
+  width: 95%;
+  height: 240px;
+}
+.location__Section__para {
+  font-size: 95%;
+}
+
 
 }
