@@ -84,29 +84,70 @@ body {
 .headerback__secon {
   width: 50%;
 }
-.headerback__second img {
-  position: absolute;
-  // bottom: 0%;
-  right: 8%;
-  top: 22%;
-  height: 560px;
 
-  max-width: 540px;
+
+.headerback__second{
   border-top-left-radius: 70px;
   border-top-right-radius: 70px;
-  transition: all .4s ease-in-out;
 }
-.headerback__second img:hover{
-  transform: scale(1.05);
+.headerback__second :hover{
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
 }
 .headerback__second__image {
   width: 100%;
-  
+ 
+    border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
 
 }
 .feature__content__card__svg2 {
   display: none;
 }
+.headerback__second {
+ 
+	display: inline-block;
+	text-align:center;
+	width: 50%;
+	float: left;
+  position: absolute;
+    bottom: 0%;
+    right: -17%;
+    top: 25%;
+    height: 690px;
+  
+    max-width: 620px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    transition: all .4s ease-in-out;
+    border-radius: 30px;
+}
+figure {
+	overflow: hidden;
+	margin: 0 10px;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+}
+
+.headerback__second img {
+	display: block;
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+}
+.headerback__second #zoom-In figure img {
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+}
+.headerback__second #zoom-In figure:hover img {
+	transform: scale(1.5);
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+}
+
+
 
 .oakland_section__weaper__overlay__two__left {
   padding: 12px 3em;

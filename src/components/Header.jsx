@@ -67,12 +67,28 @@ export default function Header() {
                 </div>
               </div>
             </div>
+            <div className="headerback__second">
+        <div id="zoom-In">
+        <figure>
+          <img className="headerback__second__image" src={headerback2} alt="" />
+        	</figure>
+        </div>
+        </div>
           </div>
         </div>
-        <div className="headerback__second">
-          <img className="headerback__second__image" src={headerback2} alt="" />
-        </div>
+      
       </div>
+
+     
+			{/* <div class="image">
+				<div id="zoom-In">
+					<figure>
+          <img className="headerback__second__image" src={headerback2} alt="" />
+					</figure>
+				</div>
+			</div>
+		 */}
+	
 
       <div className="feature">
         <div className="feature__content">
