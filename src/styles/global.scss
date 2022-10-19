@@ -109,7 +109,6 @@ body {
 	display: inline-block;
 	text-align:center;
 	width: 50%;
-	float: left;
   position: absolute;
     bottom: 0%;
     right: -17%;
@@ -137,12 +136,12 @@ figure {
 }
 .headerback__second #zoom-In figure img {
 	transform: scale(1);
-	transition: 0.3s ease-in-out;
+	transition: 0.5s ease-in-out;
   border-top-left-radius: 70px;
   border-top-right-radius: 70px;
 }
 .headerback__second #zoom-In figure:hover img {
-	transform: scale(1.5);
+	transform: scale(1.2);
   border-top-left-radius: 70px;
   border-top-right-radius: 70px;
 }
