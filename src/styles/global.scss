@@ -493,7 +493,7 @@ figure {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  margin-top: 28em;
+  margin-top: 15em;
   padding-left: 8em;
   margin-bottom: 3em;
 }
@@ -511,6 +511,14 @@ figure {
 .luxury__section__left {
   width: 50%;
 }
+.luxury__section__right__image {
+  height: 450px;
+}
+.luxury__section__right {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 
 .luxury__section__left__heading span {
   color: #b29c3f;
@@ -525,55 +533,16 @@ figure {
   font-family: "Montserrat", sans-serif;
   width: fit-content;
 }
-.luxury__section__right {
-  width: 50%;
-  position: relative;
+.luxury__section__right__img {
+  padding: 1em;
 }
-.luxury__section__right__imgs {
-  position: absolute;
-  top: 2%;
-  right: 50%;
-}
+
 // .luxury__section__right__img{
 // width: 100%;
 // height: 100%;
 
 // }
-.luxury__section__right__img img {
-  width: 45%;
-  max-height: 700px;
-  margin: 0 auto;
-  display: flex;
-  margin-top: 2.5em;
-  margin-left: 8.7em;
-  opacity: 0.46;
-}
-.luxury__section__right__imgs img {
-  width: 100%;
-  z-index: -999;
-  max-height: 280px;
-  margin: 0 auto;
-  margin-top: 4em;
-  margin-left: 3em;
-  display: flex;
-}
-.luxury__section__right__imgss {
-  width: 100%;
-  height: 100%;
-}
-.luxury__section__right__imgss img {
-  width: 44%;
-  z-index: -999;
-  height: 430px;
-  max-height: 430px;
-  margin: 0 auto;
-  top: 0;
-  margin-bottom: 2em;
-  margin-left: 12em;
-  position: absolute;
-  display: flex;
-  opacity: 0.14;
-}
+
 .Form__House {
   height: 600px;
   width: 100%;
@@ -897,8 +866,7 @@ figure {
   .luxury__section {
     width: 100%;
     flex-direction: column;
-    padding: 0em 5em;
-    margin-bottom: 33em;
+    padding: 0em 2em;
   }
   .headerback__second img {
     height: 450px;
@@ -907,10 +875,7 @@ figure {
   .luxury__section__left {
     width: 100%;
   }
-  .luxury__section__right {
-    width: 100%;
-    margin-left: 6em;
-  }
+
   .luxury__section__right__imgs img {
     max-height: 458px;
   }
@@ -1028,12 +993,7 @@ figure {
     width: 50%;
     margin: 1em;
   }
-  .luxury__section__right__img img {
-    display: none;
-  }
-  .luxury__section__right__imgss img {
-    display: none;
-  }
+
   .oakland_section {
     height: 117vh;
   }
@@ -1166,6 +1126,9 @@ figure {
   }
   .farm__house__content__heading {
     font-size: 38px;
+  }
+  .luxury__section {
+    margin-top: 24em;
   }
 }
 @media (max-width: 615px) {
@@ -1344,5 +1307,8 @@ figure {
   }
   .about__section__firstentry__top__img img {
     height: 363px;
+  }
+  .luxury__section__right__image {
+    height: 400px;
   }
 }

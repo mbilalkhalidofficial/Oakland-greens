@@ -28,20 +28,6 @@ export default function index() {
                 alt=""
               />
             </div>
-            <div className="luxury__section__right__imgs">
-              <img
-                className="luxury__section__right__image"
-                src={luxury}
-                alt=""
-              />
-            </div>
-            <div className="luxury__section__right__imgss">
-              <img
-                className="luxury__section__right__image"
-                src={luxury}
-                alt=""
-              />
-            </div>
           </div>
         </div>
       </div>
