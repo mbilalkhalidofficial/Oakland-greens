@@ -66,7 +66,7 @@ export default function index() {
                 border: "none",
                 margin: "4em 0em",
               }}
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             />
           </div>
         </div>

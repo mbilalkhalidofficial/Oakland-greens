@@ -1,5 +1,10 @@
 import React from "react";
+import footerbackground from "../assets/footer-background.png";
 
 export default function Footer() {
-  return <div>Footer</div>;
+  return (
+    <>
+      <section className="Footer"></section>
+    </>
+  );
 }
