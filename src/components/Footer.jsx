@@ -71,9 +71,9 @@ export default function Footer() {
                         d="M17.1511 20.2399H7.06339C4.03708 20.2399 2.01953 18.8024 2.01953 15.4482V8.73991C2.01953 5.38574 4.03708 3.94824 7.06339 3.94824H17.1511C20.1774 3.94824 22.195 5.38574 22.195 8.73991V15.4482C22.195 18.8024 20.1774 20.2399 17.1511 20.2399Z"
                         fill="white"
                         stroke="#B29C3F"
-                        stroke-miterlimit="10"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeMiterlimit="10"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M17.1444 9.21924L13.9869 11.6151C12.9479 12.4009 11.243 12.4009 10.204 11.6151L7.05664 9.21924"
@@ -82,9 +82,9 @@ export default function Footer() {
                       <path
                         d="M17.1444 9.21924L13.9869 11.6151C12.9479 12.4009 11.243 12.4009 10.204 11.6151L7.05664 9.21924"
                         stroke="#B29C3F"
-                        stroke-miterlimit="10"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeMiterlimit="10"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                   </div>
