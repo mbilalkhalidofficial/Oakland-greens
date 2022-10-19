@@ -625,6 +625,7 @@ figure {
 .farm__house__content__one:hover {
   background-color: #b29c3f;
   border: #b29c3f 2px solid;
+  transition: all 0.3s ease-in-out;
 }
 .farm__house__content__one:hover .farm__house__content__one__svg svg {
   fill: #fff;
@@ -691,6 +692,7 @@ figure {
 .farm__house__content__two:hover {
   background-color: #b29c3f;
   border: #b29c3f 2px solid;
+  transition: all 0.3s ease-in-out;
 }
 .farm__house__content__two:hover .farm__house__content__one__svg svg {
   fill: #fff;
@@ -698,6 +700,7 @@ figure {
 .farm__house__content__three:hover {
   background-color: #b29c3f;
   border: #b29c3f 2px solid;
+  transition: all 0.3s ease-in-out;
 }
 .farm__house__content__three:hover .farm__house__content__one__svg svg {
   fill: #fff;
@@ -705,12 +708,14 @@ figure {
 .farm__house__content__four:hover {
   background-color: #b29c3f;
   border: #b29c3f 2px solid;
+  transition: all 0.3s ease-in-out;
 }
 .farm__house__content__four:hover .farm__house__content__one__svg svg {
   fill: #fff;
 }
 .farm__house__content__five:hover {
   background-color: #b29c3f;
+  transition: all 0.3s ease-in-out;
   border: #b29c3f 2px solid;
 }
 .farm__house__content__five:hover .farm__house__content__one__svg svg {
@@ -718,6 +723,7 @@ figure {
 }
 .farm__house__content__six:hover {
   background-color: #b29c3f;
+  transition: all 0.3s ease-in-out;
   border: #b29c3f 2px solid;
 }
 .farm__house__content__six:hover .farm__house__content__one__svg svg {
@@ -726,16 +732,19 @@ figure {
 .farm__house__content__seven:hover {
   background-color: #b29c3f;
   border: #b29c3f 2px solid;
+  transition: all 0.3s ease-in-out;
 }
 .farm__house__content__seven:hover .farm__house__content__one__svg svg {
   fill: #fff;
 }
 .farm__house__content__eight:hover {
   background-color: #b29c3f;
+  transition: all 0.3s ease-in-out;
   border: #b29c3f 2px solid;
 }
 .farm__house__content__eight:hover .farm__house__content__one__svg svg {
   fill: #fff;
+  transition: all 0.3s ease-in-out;
 }
 @media (max-width: 1450px) {
   .headerback__second img {
@@ -817,7 +826,7 @@ figure {
     max-height: 458px;
   }
   .luxury__section__left__heading {
-    width: 90%;
+    width: 100%;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -956,6 +965,9 @@ figure {
 }
 
 @media (max-width: 850px) {
+  .farm__house__content__part__two {
+    margin-left: 0px;
+  }
   // .about__section__firstentry {
   //   flex-direction: column;
   // }
@@ -967,8 +979,14 @@ figure {
 }
 
 @media (max-width: 750px) {
+  // .farm__house__content__twopart {
+  //   display: flex;
+  // }
   .oakland_section {
     height: 112vh;
+  }
+  .farm__house__content__heading {
+    font-size: 42px;
   }
   .about__section__thirdentry {
     width: 65%;
@@ -1002,9 +1020,71 @@ figure {
   }
 }
 @media (max-width: 700px) {
+  .farm__house__content__overlay {
+    top: 8%;
+  }
+  .farm__house__content__part__one {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .farm__house__content__twopart {
+    padding-left: 1em;
+  }
+  .farm__house__content__heading {
+    padding-bottom: 10px;
+  }
+  .farm__house__content__one {
+    width: 40%;
+    border-radius: 30px 0px 0px 0px;
+  }
+  .farm__house__content__two {
+    width: 40%;
+    border-radius: 0px 30px 0px 0px;
+  }
+  .farm__house__content__three {
+    width: 40%;
+  }
+  .farm__house__content__four {
+    width: 40%;
+    border-radius: 0px;
+  }
+  .farm__house__content__part__two {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .farm__house__content__five {
+    width: 40%;
+    border-radius: 0px;
+  }
+  .farm__house__content__six {
+    width: 40%;
+  }
+  .farm__house__content__seven {
+    width: 40%;
+    border-radius: 0px 0px 0px 30px;
+  }
+  .farm__house__content__eight {
+    width: 40%;
+    border-radius: 0px 0px 30px 0px;
+  }
+
+  .farm__background img {
+    height: 890px;
+  }
   .about__section__firstentry__top__img img {
     height: 370px;
     width: 90%;
+  }
+  .farm__house__content__heading {
+    font-size: 38px;
+  }
+}
+@media (max-width: 615px) {
+  .luxury__section__left__heading {
+    font-size: 28px;
+  }
+  .farm__house__content__heading {
+    font-size: 35px;
   }
 }
 @media (max-width: 600px) {
@@ -1019,6 +1099,9 @@ figure {
   .about__section__firstentry__top__img img {
     height: 320px;
     width: 90%;
+  }
+  .farm__house__content__heading {
+    font-size: 32px;
   }
   .about__section__thirdentry__buttom {
     width: 42%;
@@ -1044,6 +1127,37 @@ figure {
   }
 }
 @media (max-width: 515px) {
+  .farm__house__content__heading {
+    font-size: 30px;
+  }
+  .farm__house__content__one {
+    width: 45%;
+  }
+  .farm__house__content__two {
+    width: 45%;
+  }
+  .farm__house__content__three {
+    width: 45%;
+  }
+  .farm__house__content__four {
+    width: 45%;
+  }
+  .farm__house__content__part__two {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .farm__house__content__five {
+    width: 45%;
+  }
+  .farm__house__content__six {
+    width: 45%;
+  }
+  .farm__house__content__seven {
+    width: 45%;
+  }
+  .farm__house__content__eight {
+    width: 45%;
+  }
   .about__section__thirdentry {
     width: 90%;
   }
@@ -1084,6 +1198,9 @@ figure {
 @media (max-width: 450px) {
   .about__section__thirdentry__buttom {
     width: 55%;
+  }
+  .farm__house__content__heading {
+    font-size: 28px;
   }
 
   .about__section__secondentry {
