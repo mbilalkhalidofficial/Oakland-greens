@@ -22,11 +22,7 @@ export default function Header() {
       <div className="oakland_section">
         <div className="oakland_section__weaper">
           <div className="oakland_section__weaper__backimg">
-            <img
-              className="oakland_section__weaper__backimgs"
-              src={headerback}
-              alt=""
-            />
+            <div className="oakland_section__weaper__backimgs"></div>
           </div>
           <div className="oakland_section__weaper__overlay">
             <div className="oakland_section__weaper__overlay__navbar">
@@ -44,43 +40,46 @@ export default function Header() {
                 <NavLink className="navbar__style">Contact Us</NavLink>
               </div>
             </div>
-
-            <div className="oakland_section__weaper__overlay__entry">
-              <div className="oakland_section__weaper__overlay__main_heading">
-                Most luxury houses for more discering Customers
-              </div>
-              <div className="oakland_section__weaper__overlay__main_heading__para">
-                Dream Home is a gated community with a great location. Located
-                downtown, you’re within walking distance of Parks, and the best
-                shopping, dining and entertainment Getting around is a breeze,
-                with easy access to freeways, buses and trolleys. . Laundry is
-                available on premises.
-              </div>
-              <div className="oakland_section__weaper__overlay__two button">
-                <div className="oakland_section__weaper__overlay__two__left">
-                  {" "}
-                  Read More{" "}
+            <div className="oakland_section__weaper__overlay__entry__content">
+              <div className="oakland_section__weaper__overlay__entry">
+                <div className="oakland_section__weaper__overlay__main_heading">
+                  Most luxury houses for more discering Customers
                 </div>
-                <div className="oakland_section__weaper__overlay__two__right">
-                  {" "}
-                  Read More
+                <div className="oakland_section__weaper__overlay__main_heading__para">
+                  Dream Home is a gated community with a great location. Located
+                  downtown, you’re within walking distance of Parks, and the
+                  best shopping, dining and entertainment Getting around is a
+                  breeze, with easy access to freeways, buses and trolleys. .
+                  Laundry is available on premises.
+                </div>
+                <div className="oakland_section__weaper__overlay__two button">
+                  <div className="oakland_section__weaper__overlay__two__left">
+                    {" "}
+                    Read More{" "}
+                  </div>
+                  <div className="oakland_section__weaper__overlay__two__right">
+                    {" "}
+                    Read More
+                  </div>
+                </div>
+              </div>
+              <div className="headerback__second">
+                <div id="zoom-In">
+                  <figure>
+                    <img
+                      className="headerback__second__image"
+                      src={headerback2}
+                      alt=""
+                    />
+                  </figure>
                 </div>
               </div>
             </div>
-            <div className="headerback__second">
-        <div id="zoom-In">
-        <figure>
-          <img className="headerback__second__image" src={headerback2} alt="" />
-        	</figure>
-        </div>
-        </div>
           </div>
         </div>
-      
       </div>
 
-     
-			{/* <div class="image">
+      {/* <div class="image">
 				<div id="zoom-In">
 					<figure>
           <img className="headerback__second__image" src={headerback2} alt="" />
@@ -88,7 +87,6 @@ export default function Header() {
 				</div>
 			</div>
 		 */}
-	
 
       <div className="feature">
         <div className="feature__content">
@@ -253,7 +251,7 @@ export default function Header() {
             <div className="about__section__thirdentry__bottom">
               <div className="about__section__thirdentry__text">
                 {" "}
-               Most luxury houses for more discering Customers
+                Most luxury houses for more discering Customers
               </div>
               <div className="about__section__thirdentry__buttom">
                 Read more
