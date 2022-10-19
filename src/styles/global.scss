@@ -399,43 +399,43 @@ figure {
   font-size: 35px;
 }
 
-.farm__house__feature__section__waeaper {
-  display: flex;
+// .farm__house__feature__section__waeaper {
+//   display: flex;
 
-  border: 1px solid red;
-  margin: 0 auto;
-  border-bottom-left-radius: 30px;
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px;
-  width: 80%;
-  margin-top: 3em;
-  margin-bottom: 3em;
-  justify-content: space-between;
-}
-.farm__house__feature__section__waeaper__svg {
-  padding: 5em 4em;
-  width: 20%;
-}
-.farm__house__feature__section__waeaper__svg__two {
-  width: 20%;
-}
-.farm__house__feature__section__waeaper__svg__two:hover {
-  // background-color: #b29c3f;
-  border-bottom-left-radius: 30px;
-  background-color: #b29c3f;
-  border-top-left-radius: 30px;
-  .farm__house__feature__section__waeaper__svg22 {
-    display: flex;
-  }
-  .farm__house__feature__section__waeaper__svg {
-    display: none;
-  }
-}
-.farm__house__feature__section__waeaper__svg22 {
-  display: none;
-  padding: 5em 4em;
-  width: 20%;
-}
+//   border: 1px solid red;
+//   margin: 0 auto;
+//   border-bottom-left-radius: 30px;
+//   border-top-right-radius: 30px;
+//   border-top-left-radius: 30px;
+//   width: 80%;
+//   margin-top: 3em;
+//   margin-bottom: 3em;
+//   justify-content: space-between;
+// }
+// .farm__house__feature__section__waeaper__svg {
+//   padding: 5em 4em;
+//   width: 20%;
+// }
+// .farm__house__feature__section__waeaper__svg__two {
+//   width: 20%;
+// }
+// .farm__house__feature__section__waeaper__svg__two:hover {
+//   // background-color: #b29c3f;
+//   border-bottom-left-radius: 30px;
+//   background-color: #b29c3f;
+//   border-top-left-radius: 30px;
+//   .farm__house__feature__section__waeaper__svg22 {
+//     display: flex;
+//   }
+//   .farm__house__feature__section__waeaper__svg {
+//     display: none;
+//   }
+// }
+// .farm__house__feature__section__waeaper__svg22 {
+//   display: none;
+//   padding: 5em 4em;
+//   width: 20%;
+// }
 
 .location__Section {
   max-width: 1440px;
@@ -473,7 +473,7 @@ figure {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  margin-top: 3em;
+  margin-top: 28em;
   padding-left: 8em;
   margin-bottom: 3em;
 }
@@ -554,7 +554,111 @@ figure {
   display: flex;
   opacity: 0.14;
 }
-
+.Form__House {
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+.farm__background img {
+  width: 100%;
+  height: 700px;
+}
+.farm__house__content__heading {
+  font-size: 45px;
+  text-align: center;
+  color: #f1f1f1;
+  padding-bottom: 2em;
+}
+.farm__house__content__part__one {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.farm__house__content__part__two {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin-left: 5em;
+}
+.farm__house__content__overlay {
+  position: absolute;
+  width: 100%;
+  top: 15%;
+  left: -3%;
+}
+.farm__house__content__one__heading {
+  color: #fff;
+  font-size: 18px;
+  padding-top: 1em;
+}
+.farm__house__content__one {
+  width: 20%;
+  border: #fff 2px solid;
+  padding: 2em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 30px 0px 0px 30px;
+}
+.farm__house__content__two {
+  width: 20%;
+  border: #fff 2px solid;
+  padding: 2em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.farm__house__content__three {
+  width: 20%;
+  border: #fff 2px solid;
+  padding: 2em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.farm__house__content__four {
+  width: 20%;
+  border: #fff 2px solid;
+  padding: 2em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 0px 30px 0px 0px;
+}
+.farm__house__content__five {
+  width: 20%;
+  border: #fff 2px solid;
+  padding: 2em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 0px 0px 0px 30px;
+}
+.farm__house__content__six {
+  width: 20%;
+  border: #fff 2px solid;
+  padding: 2em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.farm__house__content__seven {
+  width: 20%;
+  border: #fff 2px solid;
+  padding: 2em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.farm__house__content__eight {
+  width: 20%;
+  border: #fff 2px solid;
+  padding: 2em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 0px 30px 30px 0px;
+}
 @media (max-width: 1450px) {
   .headerback__second img {
     height: 540px;
