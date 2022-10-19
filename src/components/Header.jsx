@@ -55,11 +55,9 @@ export default function Header() {
                 </div>
                 <div className="oakland_section__weaper__overlay__two button">
                   <div className="oakland_section__weaper__overlay__two__left">
-                    {" "}
-                    Read More{" "}
+                    Read More
                   </div>
                   <div className="oakland_section__weaper__overlay__two__right">
-                    {" "}
                     Read More
                   </div>
                 </div>
@@ -247,7 +245,6 @@ export default function Header() {
 
             <div className="about__section__thirdentry__bottom">
               <div className="about__section__thirdentry__text">
-                {" "}
                 Most luxury houses for more discering Customers
               </div>
               <div className="about__section__thirdentry__buttom">

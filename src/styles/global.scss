@@ -737,6 +737,92 @@ figure {
 .farm__house__content__eight:hover .farm__house__content__one__svg svg {
   fill: #fff;
 }
+.Footer {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1920px;
+  position: relative;
+  color: #fff;
+}
+.footer__background img {
+  width: 100%;
+  height: 660px;
+  margin-bottom: -2em;
+}
+.footer__content__background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__content__background img {
+  height: 420px;
+}
+.footer__content {
+  position: absolute;
+  top: 12%;
+  left: 10%;
+}
+.footer__content__all {
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  display: flex;
+}
+.footer__content__left__heading {
+  font-size: 30px;
+  width: 70%;
+  padding-top: 2.5em;
+}
+.footer__content__right__form__button button {
+  background-color: #b29c3f;
+  border: #b29c3f 2px solid;
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  width: 35%;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-top: 1em;
+}
+.footer__content__left__all__link__one {
+  display: flex;
+  align-items: center;
+  padding: 1em 0em;
+}
+.footer__content__left__all__link__one__text {
+  width: 70%;
+  font-family: "Montserrat", sans-serif;
+}
+.footer__content__left__all__link__one__svg {
+  padding-right: 1em;
+}
+.footer__content__right__form {
+  background-color: #fff;
+  padding: 2em;
+  border-radius: 20px;
+}
+.footer__content__right__form__input input {
+  width: 100%;
+  padding: 1em;
+  padding-right: 15em;
+  border: #d6d6d6 2px solid;
+  margin-top: 2em;
+  text-align: start;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+.footer__content__right__form__input__msg input {
+  width: 100%;
+  padding: 1em;
+  padding-right: 15em;
+  border: #d6d6d6 2px solid;
+  margin-top: 2em;
+  padding-bottom: 5em;
+  text-align: start;
+  font-family: "Montserrat", sans-serif;
+}
 @media (max-width: 1450px) {
   .headerback__second img {
     height: 540px;
