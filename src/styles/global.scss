@@ -246,6 +246,7 @@ figure {
 .about__section__secondentry__img img {
   max-height: 930px;
   width: 100%;
+  background-color: #1f4149;
 }
 .about__section__firstentry {
   margin: 1%;
@@ -256,23 +257,27 @@ figure {
   width: 25%;
 }
 .about__section__thirdentry__img img {
-  max-height: 470px;
+  height: 470px;
   margin: 1%;
   // margin-bottom: 10em;
   width: 100%;
 }
 .about__section__firstentry__top__img img {
-  max-height: 290px;
+  height: 290px;
   margin: 1%;
 }
 
 .about__section__secondentry {
+  height: 900px;
+  background-color: #1f4149;
   width: 35%;
   position: relative;
+  border-radius: 4 0px;
+  border-radius: 25px;
 }
 .about__section__secondentry__overlay {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 15%;
 }
 .about__section__secondentry__heading {
@@ -328,6 +333,18 @@ figure {
 }
 
 .about__section__thirdentry__buttom {
+  width: 90%;
+  padding: 9px 2em;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #b29c3f;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: auto;
+  margin-top: 2em;
+}
+.farm__house__content__left__button {
   width: 30%;
   padding: 9px 2em;
   cursor: pointer;
@@ -543,6 +560,12 @@ figure {
     height: 540px;
     width: 700px;
   }
+  .about__section__secondentry_card {
+    padding: 1em 0em;
+  }
+  .about__section__secondentry {
+    width: 40%;
+  }
 }
 @media (max-width: 1150px) {
   .headerback__second img {
@@ -579,6 +602,16 @@ figure {
     height: 1050px;
     border-radius: 0px;
   }
+  .about__section__secondentry__heading {
+    font-size: 30px;
+  }
+  .about__section__secondentry_card {
+    width: 90%;
+  }
+  .about__section__secondentry__overlay {
+    left: 10%;
+    top: 5%;
+  }
 }
 @media (max-width: 1000px) {
   .luxury__section {
@@ -607,6 +640,25 @@ figure {
     text-align: center;
     align-items: center;
   }
+  .about__section__weaper {
+    flex-wrap: wrap;
+  }
+  .about__section__secondentry {
+    margin: 2em;
+  }
+  .about__section__firstentry {
+    margin-left: 5em;
+  }
+  .about__section__firstentry__top__img img {
+    height: 430px;
+    margin: 1em;
+  }
+  .about__section__thirdentry {
+    width: 90%;
+  }
+  .about__section__thirdentry__text {
+    text-align: center;
+  }
 }
 
 @media (max-width: 950px) {
@@ -631,6 +683,34 @@ figure {
     padding: 0em 3em;
     text-align: center;
   }
+  .about__section__firstentry {
+    width: 90%;
+    margin-left: 0em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .about__section__firstentry__top__img img {
+    height: 470px;
+    margin: 1em;
+  }
+  .about__section__secondentry {
+    width: 90%;
+  }
+  .about__section__secondentry_card {
+    margin-left: 1em;
+  }
+  .about__section__secondentry__overlay {
+    left: 5%;
+  }
+  .about__section__secondentry__heading {
+    text-align: center;
+  }
+  .about__section__secondentry__para {
+    text-align: center;
+    width: 95%;
+  }
 }
 @media (max-width: 950px) {
   .luxury__section__right__img img {
@@ -647,6 +727,11 @@ figure {
   }
 }
 
+@media (max-width: 850px) {
+  .about__section__firstentry {
+    flex-direction: column;
+  }
+}
 @media (max-width: 780px) {
   .oakland_section {
     height: 125vh;
@@ -717,6 +802,10 @@ figure {
   .oakland_section__weaper__overlay__two__right:hover {
     padding: 12px 2em;
   }
+  .about__section__secondentry {
+    margin: 0em;
+    margin-top: 2em;
+  }
 }
 @media (max-width: 450px) {
   .oakland_section__weaper__overlay__two__left {
@@ -755,5 +844,17 @@ figure {
   }
   .location__Section__para {
     font-size: 95%;
+  }
+  .about__section__secondentry_card__para {
+    width: 100%;
+  }
+  .about__section__secondentry__overlay {
+    left: 0%;
+  }
+  .about__section__secondentry__para {
+    width: 99%;
+  }
+  .about__section__firstentry__top__img img {
+    height: 400px;
   }
 }

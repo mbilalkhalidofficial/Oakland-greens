@@ -182,11 +182,7 @@ export default function Header() {
           </div>
           <div className="about__section__secondentry">
             <div className="about__section__secondentry__img">
-              <img
-                className="about__section__secondentry__image"
-                src={aboutsecondbox}
-                alt=""
-              />
+              <div className="about__section__secondentry__image"></div>
             </div>
             <div className="about__section__secondentry__overlay">
               <div className="about__section__secondentry__heading">
@@ -274,7 +270,7 @@ export default function Header() {
               has been the industry.
             </div>
           </div>
-          <div className="about__section__thirdentry__buttom">Contact Us</div>
+          <div className="farm__house__content__left__button">Contact Us</div>
         </div>
       </div>
 
