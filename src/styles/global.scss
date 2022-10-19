@@ -622,6 +622,13 @@ figure {
   text-align: center;
   border-radius: 30px 0px 0px 30px;
 }
+.farm__house__content__one:hover {
+  background-color: #b29c3f;
+  border: #b29c3f 2px solid;
+}
+.farm__house__content__one:hover .farm__house__content__one__svg svg {
+  fill: #fff;
+}
 .farm__house__content__two {
   width: 20%;
   border: #fff 2px solid;
@@ -680,6 +687,55 @@ figure {
   align-items: center;
   text-align: center;
   border-radius: 0px 30px 30px 0px;
+}
+.farm__house__content__two:hover {
+  background-color: #b29c3f;
+  border: #b29c3f 2px solid;
+}
+.farm__house__content__two:hover .farm__house__content__one__svg svg {
+  fill: #fff;
+}
+.farm__house__content__three:hover {
+  background-color: #b29c3f;
+  border: #b29c3f 2px solid;
+}
+.farm__house__content__three:hover .farm__house__content__one__svg svg {
+  fill: #fff;
+}
+.farm__house__content__four:hover {
+  background-color: #b29c3f;
+  border: #b29c3f 2px solid;
+}
+.farm__house__content__four:hover .farm__house__content__one__svg svg {
+  fill: #fff;
+}
+.farm__house__content__five:hover {
+  background-color: #b29c3f;
+  border: #b29c3f 2px solid;
+}
+.farm__house__content__five:hover .farm__house__content__one__svg svg {
+  fill: #fff;
+}
+.farm__house__content__six:hover {
+  background-color: #b29c3f;
+  border: #b29c3f 2px solid;
+}
+.farm__house__content__six:hover .farm__house__content__one__svg svg {
+  fill: #fff;
+}
+.farm__house__content__seven:hover {
+  background-color: #b29c3f;
+  border: #b29c3f 2px solid;
+}
+.farm__house__content__seven:hover .farm__house__content__one__svg svg {
+  fill: #fff;
+}
+.farm__house__content__eight:hover {
+  background-color: #b29c3f;
+  border: #b29c3f 2px solid;
+}
+.farm__house__content__eight:hover .farm__house__content__one__svg svg {
+  fill: #fff;
 }
 @media (max-width: 1450px) {
   .headerback__second img {
