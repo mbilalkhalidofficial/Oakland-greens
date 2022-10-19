@@ -198,6 +198,7 @@ figure {
 .feature {
   width: 100%;
   margin: 5em 0em;
+  margin-top: 10em;
 }
 .feature__content {
   margin: 0 auto;
@@ -860,6 +861,11 @@ figure {
   .about__section__secondentry__overlay {
     left: 10%;
     top: 5%;
+  }
+}
+@media (max-width: 1000px) {
+  .feature {
+    margin-top: 15em;
   }
 }
 @media (max-width: 1000px) {
