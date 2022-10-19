@@ -330,7 +330,9 @@ figure {
   width: 85%;
   text-align: center;
 }
-
+.farm__house__content__twopart {
+  padding: 0em 9em;
+}
 .about__section__secondentry_card:hover {
   background: #b29c3f;
   box-shadow: 4px 8px 54px rgba(0, 0, 0, 0.25);
@@ -805,6 +807,9 @@ figure {
   font-family: "Montserrat", sans-serif;
 }
 @media (max-width: 1450px) {
+  .farm__house__content__twopart {
+    padding: 0em;
+  }
   .headerback__second img {
     height: 540px;
     width: 700px;
@@ -816,6 +821,7 @@ figure {
     width: 40%;
   }
 }
+
 @media (max-width: 1150px) {
   .headerback__second img {
     height: 450px;
