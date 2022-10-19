@@ -475,6 +475,14 @@ figure {
   width: 80%;
   max-height: 500px;
 }
+.location__Section__img iframe {
+  border-radius: 25px;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
 .luxury {
   width: 100%;
   margin: 8em 0em;
