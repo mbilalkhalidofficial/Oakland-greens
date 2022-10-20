@@ -16,6 +16,16 @@ import first2 from "../assets/first2.svg";
 import first3 from "../assets/first3.svg";
 import firstfour from "../assets/firstfour.svg";
 import first23 from "../assets/first23.svg";
+import swiperpic from "../assets/swiperpic.png";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+
+import { Pagination, A11y } from "swiper";
+
+// Import Swiper styles
+
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 export default function Header() {
   return (
@@ -272,6 +282,32 @@ export default function Header() {
         </div>
       </div>
 
+      <Swiper
+        // install Swiper modules
+        modules={[Pagination, A11y]}
+        spaceBetween={50}
+        slidesPerView={1}
+        pagination={{ clickable: true }}
+        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={() => console.log("slide change")}
+      >
+        <SwiperSlide className="farmhouse__swiper">
+          <img className="farmhouse__swiper__picture" src={swiperpic} alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="farmhouse__swiper">
+          <img className="farmhouse__swiper__picture" src={swiperpic} alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="farmhouse__swiper">
+          <img className="farmhouse__swiper__picture" src={swiperpic} alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="farmhouse__swiper">
+          <img className="farmhouse__swiper__picture" src={swiperpic} alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="farmhouse__swiper">
+          <img className="farmhouse__swiper__picture" src={swiperpic} alt="" />
+        </SwiperSlide>
+        ...
+      </Swiper>
       {/* <div className="farm__house__feature">
         <div className="farm__house__feature__section">
           <div className="farm__house__feature__section__heading">

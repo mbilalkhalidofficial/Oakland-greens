@@ -451,7 +451,17 @@ figure {
 //   padding: 5em 4em;
 //   width: 20%;
 // }
-
+.farmhouse__swiper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.farmhouse__swiper__picture {
+  width: 60%;
+  height: 430px;
+  margin-bottom: 3em;
+}
 .location__Section {
   max-width: 1440px;
   margin: 0 auto;
