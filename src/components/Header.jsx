@@ -18,6 +18,7 @@ import firstfour from "../assets/firstfour.svg";
 import first23 from "../assets/first23.svg";
 import swiperpic from "../assets/swiperpic.png";
 import { Swiper, SwiperSlide } from "swiper/react";
+
 import "swiper/css";
 
 import { Pagination, A11y } from "swiper";

@@ -818,6 +818,11 @@ figure {
   font-family: "Montserrat", sans-serif;
 }
 @media (max-width: 1450px) {
+  .farmhouse__swiper__picture {
+    width: 80%;
+    height: 473px;
+  }
+
   .farm__house__content__twopart {
     padding: 0em;
   }
@@ -1004,6 +1009,10 @@ figure {
   }
 }
 @media (max-width: 950px) {
+  .farmhouse__swiper__picture {
+    width: 85%;
+    height: 473px;
+  }
   .about__section__weaper {
     display: flex;
   }
@@ -1036,6 +1045,10 @@ figure {
 }
 
 @media (max-width: 850px) {
+  .farmhouse__swiper__picture {
+    width: 90%;
+    height: 423px;
+  }
   .farm__house__content__part__two {
     margin-left: 0px;
   }
@@ -1091,6 +1104,10 @@ figure {
   }
 }
 @media (max-width: 700px) {
+  .farmhouse__swiper__picture {
+    width: 90%;
+    height: 380px;
+  }
   .farm__house__content__overlay {
     top: 8%;
   }
@@ -1203,8 +1220,17 @@ figure {
   .headerback__second img {
     height: 410px;
   }
+  .farmhouse__swiper__picture {
+    width: 90%;
+    height: 340px;
+  }
 }
+
 @media (max-width: 515px) {
+  .farmhouse__swiper__picture {
+    width: 90%;
+    height: 310px;
+  }
   .farm__house__content__heading {
     font-size: 30px;
   }
