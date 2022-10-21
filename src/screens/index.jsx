@@ -2,6 +2,15 @@ import React from "react";
 import map from "../assets/map.png";
 import luxury from "../assets/luxury.png";
 
+import { Navigation, Pagination, A11y } from "swiper";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
 export default function index() {
   return (
     <>
@@ -21,13 +30,67 @@ export default function index() {
             <div className="luxury__section__left__button">Read More</div>
           </div>
           <div className="luxury__section__right">
-            <div className="luxury__section__right__img">
-              <img
-                className="luxury__section__right__image"
-                src={luxury}
-                alt=""
-              />
-            </div>
+            <Swiper
+              className="z"
+              // install Swiper modules
+              modules={[Navigation, Pagination, A11y]}
+              spaceBetween={50}
+              slidesPerView={1}
+              navigation
+              pagination={{ clickable: true }}
+              onSwiper={(swiper) => console.log(swiper)}
+              onSlideChange={() => console.log("slide change")}
+            >
+              <SwiperSlide>
+                {" "}
+                <div className="t">
+                  <div className="luxury__section__right__img">
+                    <img
+                      className="luxury__section__right__image"
+                      src={luxury}
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <div className="t">
+                  <div className="luxury__section__right__img">
+                    <img
+                      className="luxury__section__right__image"
+                      src={luxury}
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <div className="t">
+                  <div className="luxury__section__right__img">
+                    <img
+                      className="luxury__section__right__image"
+                      src={luxury}
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <div className="t">
+                  <div className="luxury__section__right__img">
+                    <img
+                      className="luxury__section__right__image"
+                      src={luxury}
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </SwiperSlide>
+              ...
+            </Swiper>
           </div>
         </div>
       </div>

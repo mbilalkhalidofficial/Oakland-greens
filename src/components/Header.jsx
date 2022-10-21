@@ -17,16 +17,16 @@ import first3 from "../assets/first3.svg";
 import firstfour from "../assets/firstfour.svg";
 import first23 from "../assets/first23.svg";
 import swiperpic from "../assets/swiperpic.png";
+
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import "swiper/css";
-
-import { Pagination, A11y } from "swiper";
-
 // Import Swiper styles
-
+import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 export default function Header() {
   return (
@@ -309,6 +309,7 @@ export default function Header() {
         </SwiperSlide>
         ...
       </Swiper>
+
       {/* <div className="farm__house__feature">
         <div className="farm__house__feature__section">
           <div className="farm__house__feature__section__heading">

@@ -98,7 +98,12 @@ body::-webkit-scrollbar-track {
 .headerback__secon {
   width: 50%;
 }
-
+.t {
+  width: 40%;
+}
+.z {
+  width: 82%;
+}
 .headerback__second {
   border-top-left-radius: 70px;
   border-top-right-radius: 70px;
@@ -143,6 +148,7 @@ figure {
   height: 570px;
   cursor: pointer;
 }
+
 .headerback__second #zoom-In figure img {
   transform: scale(1);
   transition: 0.5s ease-in-out;
@@ -528,6 +534,7 @@ figure {
   height: 450px;
 }
 .luxury__section__right {
+  width: 40%;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -836,6 +843,19 @@ figure {
   .about__section__secondentry {
     width: 40%;
   }
+  .t {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .z {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
 }
 
 @media (max-width: 1150px) {
@@ -845,6 +865,22 @@ figure {
   }
 }
 @media (max-width: 1115px) {
+  .luxury__section__right {
+    width: 45%;
+  }
+  .t {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .z {
+    width: 110%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
   .headerback__second img {
     height: 450px;
     width: 700px;
@@ -885,6 +921,26 @@ figure {
   }
 }
 @media (max-width: 1000px) {
+  .luxury__section__right {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .t {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .z {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
   .feature {
     margin-top: 15em;
   }
@@ -1227,6 +1283,9 @@ figure {
 }
 
 @media (max-width: 515px) {
+  .luxury__section__right__image {
+    height: 362px;
+  }
   .farmhouse__swiper__picture {
     width: 90%;
     height: 310px;
@@ -1300,6 +1359,9 @@ figure {
   }
 }
 @media (max-width: 450px) {
+  .luxury__section__right__image {
+    height: 3s2px;
+  }
   .about__section__thirdentry__buttom {
     width: 55%;
   }
@@ -1359,8 +1421,5 @@ figure {
   }
   .about__section__firstentry__top__img img {
     height: 363px;
-  }
-  .luxury__section__right__image {
-    height: 400px;
   }
 }
