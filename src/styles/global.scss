@@ -32,14 +32,14 @@ body::-webkit-scrollbar-track {
   margin: 0 auto;
 }
 .oakland_section__weaper__backimg {
-  width: 85%;
+  width: 87%;
 
-  max-height: 700px;
+  max-height: 900px;
   border-top-right-radius: 120px;
 }
 .oakland_section__weaper__backimgs {
   width: 100%;
-  height: 700px;
+  height: 880px;
   background-color: #1f4149;
   border-top-right-radius: 120px;
 }
@@ -53,13 +53,27 @@ body::-webkit-scrollbar-track {
 .oakland_section__weaper__overlay {
   position: absolute;
   top: 5%;
-  left: 12%;
+  left: 14%;
   width: 70%;
 }
 .navbar__style {
   padding: 1em;
+  font-size: 20px;
+}
+.navbar__style::before {
+  background-color: #b29c3f;
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  margin-left: 1.3em;
+  bottom: 0;
+  border-radius: 30px;
 }
 .navbar__style:hover {
+  .navbar__style {
+    background-color: red;
+  }
   color: #b29c3f;
 }
 .oakland_section__weaper__overlay__navbar__left__logo {
@@ -84,25 +98,31 @@ body::-webkit-scrollbar-track {
 }
 .oakland_section__weaper__overlay__main_heading__para {
   padding: 3em 0em;
+  line-height: 25.6px;
+  color: #fffbfb;
+  width: 85%;
+  align-items: center;
 }
 .oakland_section__weaper__overlay__two {
   display: flex;
   padding: 2em 0em;
 }
-.oakland_section__weaper__overlay__main_heading {
-  width: 85%;
-}
+
 .oakland_section__weaper__overlay__entry {
   color: white;
   margin-top: 7em;
   width: 52%;
 }
 .oakland_section__weaper__overlay__main_heading {
-  font-size: 36px;
+  font-size: 50px;
+  width: 95%;
 }
 .oakland_section__weaper__overlay__main_heading__para {
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
+}
+.oakland_section__weaper__overlay__navbar__right {
+  margin-right: 7em !important;
 }
 .headerback__secon {
   width: 50%;
@@ -114,18 +134,18 @@ body::-webkit-scrollbar-track {
   width: 82%;
 }
 .headerback__second {
-  border-top-left-radius: 70px;
-  border-top-right-radius: 70px;
+  border-top-left-radius: 170px;
+  border-top-right-radius: 170px;
 }
 .headerback__second :hover {
-  border-top-left-radius: 70px;
-  border-top-right-radius: 70px;
+  border-top-left-radius: 170px;
+  border-top-right-radius: 170px;
 }
 .headerback__second__image {
   width: 100%;
 
-  border-top-left-radius: 70px;
-  border-top-right-radius: 70px;
+  border-top-left-radius: 170px;
+  border-top-right-radius: 170px;
 }
 .feature__content__card__svg2 {
   display: none;
@@ -133,41 +153,203 @@ body::-webkit-scrollbar-track {
 .headerback__second {
   display: inline-block;
   text-align: center;
-  width: 50%;
+  width: 80%;
   position: absolute;
   bottom: 0%;
-  right: -17%;
-  top: 25%;
+  right: -18%;
+  top: 20%;
   // height: 690px;
 
-  max-width: 620px;
-  border-top-left-radius: 70px;
-  border-top-right-radius: 70px;
+  max-width: 850px;
+  border-top-left-radius: 170px;
+  border-top-right-radius: 170px;
   transition: all 0.4s ease-in-out;
   border-radius: 30px;
 }
 figure {
   overflow: hidden;
   margin: 0 10px;
-  border-top-left-radius: 70px;
-  border-top-right-radius: 70px;
+  border-top-left-radius: 170px;
+  border-top-right-radius: 170px;
 }
 
 .headerback__second img {
-  height: 570px;
+  height: 750px;
   cursor: pointer;
+}
+//150%
+@media only screen and (min-width: 1200px) {
+  .oakland_section__weaper__overlay {
+    left: 5%;
+  }
+
+  .oakland_section__weaper__overlay__navbar__right {
+    padding-right: 1em;
+  }
+  .oakland_section__weaper__backimgs {
+    height: 580px;
+  }
+  .headerback__second img {
+    height: 470px !important;
+    cursor: pointer;
+  }
+  .headerback__second {
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    bottom: 0%;
+    right: -30%;
+    top: 15%;
+    // height: 690px;
+
+    max-width: 680px;
+  }
+  .oakland_section__weaper__overlay__main_heading {
+    font-size: 34px !important;
+  }
+  .oakland_section__weaper__overlay__navbar__right {
+    margin-right: -6em !important;
+  }
+  .oakland_section__weaper__overlay__main_heading__para {
+    padding: 0em;
+  }
+}
+
+//125%
+@media only screen and (min-width: 1470px) {
+  .oakland_section__weaper__overlay {
+    left: 10%;
+  }
+
+  .oakland_section__weaper__overlay__navbar__right {
+    padding-right: 1em;
+  }
+  .oakland_section__weaper__backimgs {
+    height: 700px;
+  }
+  .headerback__second img {
+    height: 590px !important;
+    cursor: pointer;
+  }
+  .headerback__second {
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    bottom: 0%;
+    right: -21%;
+    top: 15%;
+    // height: 690px;
+
+    max-width: 730px;
+  }
+  .oakland_section__weaper__overlay__main_heading {
+    font-size: 40px !important;
+  }
+  .oakland_section__weaper__overlay__navbar__right {
+    margin-right: 0em !important;
+  }
+}
+
+// 110%
+@media only screen and (min-width: 1670px) {
+  .oakland_section__weaper__backimgs {
+    height: 790px;
+  }
+  .oakland_section__weaper__overlay__main_heading {
+    font-size: 46px !important;
+  }
+  .oakland_section__weaper__overlay {
+    position: absolute;
+    top: 5%;
+    left: 14%;
+    width: 70%;
+  }
+  .headerback__second img {
+    height: 650px !important;
+    cursor: pointer;
+  }
+  .headerback__second {
+    display: inline-block;
+    text-align: center;
+    width: 75%;
+    position: absolute;
+    bottom: 0%;
+    right: -18%;
+    top: 20%;
+    // height: 690px;
+
+    max-width: 830px;
+  }
+  .oakland_section__weaper__overlay__main_heading {
+    width: 100%;
+  }
+  .oakland_section__weaper__overlay__navbar__right {
+    margin-right: 6em !important;
+  }
+  .oakland_section__weaper__overlay__main_heading__para {
+    padding: 3em 0em !important;
+    line-height: 25.6px;
+    color: #fffbfb;
+    width: 85%;
+    align-items: center;
+  }
+}
+
+////100 %
+@media only screen and (min-width: 1770px) {
+  .oakland_section__weaper__overlay__main_heading__para {
+    padding: 3em 0em !important;
+    line-height: 25.6px;
+    color: #fffbfb;
+    width: 85%;
+    align-items: center;
+  }
+  .oakland_section__weaper__overlay__navbar__right {
+    margin-right: 6em !important;
+  }
+  .oakland_section__weaper__backimgs {
+    width: 100%;
+    height: 880px;
+    background-color: #1f4149;
+    border-top-right-radius: 120px;
+  }
+  .oakland_section__weaper__overlay__main_heading {
+    font-size: 52px !important;
+  }
+  .headerback__second img {
+    height: 735px !important;
+    cursor: pointer;
+  }
+  .headerback__second {
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    bottom: 0%;
+    right: -18%;
+    top: 20%;
+    // height: 690px;
+
+    max-width: 850px;
+    border-top-left-radius: 170px;
+    border-top-right-radius: 170px;
+    transition: all 0.4s ease-in-out;
+    border-radius: 30px;
+  }
 }
 
 .headerback__second #zoom-In figure img {
-  transform: scale(1);
+  transform: scale(1.1);
   transition: 0.5s ease-in-out;
-  border-top-left-radius: 70px;
-  border-top-right-radius: 70px;
+  border-top-left-radius: 170px;
+  border-top-right-radius: 170px;
 }
 .headerback__second #zoom-In figure:hover img {
   transform: scale(1.2);
-  border-top-left-radius: 70px;
-  border-top-right-radius: 70px;
+  border-top-left-radius: 170px;
+  border-top-right-radius: 170px;
 }
 
 .oakland_section__weaper__overlay__two__left {
@@ -913,8 +1095,8 @@ figure {
     padding: 0em;
   }
   .headerback__second img {
-    height: 540px;
-    width: 700px;
+    height: 640px;
+    width: 600px;
   }
   .about__section__secondentry_card {
     padding: 1em 0em;

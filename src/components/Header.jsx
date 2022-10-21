@@ -47,7 +47,7 @@ export default function Header() {
   }, []);
   return (
     <>
-      <section id="Home" className="oakland_section">
+      <div className="oakland_section">
         <div className="oakland_section__weaper">
           <div className="oakland_section__weaper__backimg">
             <div className="oakland_section__weaper__backimgs"></div>
@@ -68,18 +68,10 @@ export default function Header() {
                   setActive={setActive}
                   className="oakland_section__weaper__overlay__navbar__right"
                 >
-                  <a className="navbar__style" href="#Home">
-                    Home
-                  </a>
-                  <a className="navbar__style" href="#About">
-                    About Us
-                  </a>
-                  <a className="navbar__style" href="#Features">
-                    Features
-                  </a>
-                  <a className="navbar__style" href="#Contact">
-                    Contact Us
-                  </a>
+                  <NavLink className="navbar__style">Home</NavLink>
+                  <NavLink className="navbar__style">About Us</NavLink>
+                  <NavLink className="navbar__style">Features</NavLink>
+                  <NavLink className="navbar__style">Contact Us</NavLink>
                 </div>
               ) : null}
               <button
@@ -89,9 +81,9 @@ export default function Header() {
                 }}
               >
                 {active ? (
-                  <X width={30} color="red" />
+                  <X width={30} color="#b29c3f" />
                 ) : (
-                  <Menu width={30} color="red" />
+                  <Menu width={30} color="#b29c3f" />
                 )}
               </button>
             </div>
@@ -130,7 +122,7 @@ export default function Header() {
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
       {/* <div class="image">
 				<div id="zoom-In">
@@ -215,7 +207,7 @@ export default function Header() {
         </div>
       </div>
 
-      <section id="About" className="about__section">
+      <div id="first__section__header" className="about__section">
         <div className="about__section__weaper">
           <div className="about__section__firstentry">
             <div className="about__section__firstentry__top__img">
@@ -307,9 +299,9 @@ export default function Header() {
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section className="farm__house">
+      <div className="farm__house">
         <div className="farm__house__content">
           <div className="farm__house__content__left">
             <div className="farm__house__content__left__heading">
@@ -324,7 +316,7 @@ export default function Header() {
           </div>
           <div className="farm__house__content__left__button">Contact Us</div>
         </div>
-      </section>
+      </div>
 
       <Swiper
         // install Swiper modules
@@ -355,7 +347,7 @@ export default function Header() {
         </SwiperSlide>
       </Swiper>
 
-      <section id="Features" className="Form__House">
+      <section className="Form__House">
         <div className="farm__background">
           <img src={farmbackground} alt="farmbackground " />
         </div>
