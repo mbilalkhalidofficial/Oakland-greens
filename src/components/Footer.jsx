@@ -5,7 +5,7 @@ import footeroverlay from "../assets/footer-overlayimg.png";
 export default function Footer() {
   return (
     <>
-      <section className="Footer">
+      <section id="Contact" className="Footer">
         <div className="footer__background">
           <img src={footerbackground} alt="footerbackground" />
         </div>
