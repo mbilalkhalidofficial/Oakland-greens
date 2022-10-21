@@ -75,6 +75,9 @@ body::-webkit-scrollbar-track {
 }
 .menu__btn {
   display: none;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
 }
 .oakland_section__weaper__overlay__main_heading__para {
   padding: 3em 0em;
@@ -351,22 +354,36 @@ figure {
 }
 
 .about__section__thirdentry__text {
-  font-size: 33px;
+  font-size: 37px;
   line-height: 40px;
   font-weight: 400;
 }
-
-.about__section__thirdentry__buttom {
-  width: 90%;
-  padding: 9px 2em;
+.luxury__section__left__button {
+  padding: 14px 2.6em;
   cursor: pointer;
+  align-items: center;
+  width: fit-content;
   border-radius: 10px;
   background-color: #b29c3f;
   color: white;
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  margin: auto;
-  margin-top: 2em;
+  align-items: center;
+
+  margin-top: 1.5em;
+}
+.about__section__thirdentry__buttom {
+  padding: 14px 2.6em;
+  cursor: pointer;
+  align-items: center;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: #b29c3f;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+
+  margin-top: 1.5em;
 }
 .farm__house__content__left__button {
   width: 30%;
@@ -546,16 +563,7 @@ figure {
 .luxury__section__left__heading span {
   color: #b29c3f;
 }
-.luxury__section__left__button {
-  width: 30%;
-  padding: 9px 2em;
-  cursor: pointer;
-  border-radius: 10px;
-  background-color: #b29c3f;
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  width: fit-content;
-}
+
 .luxury__section__right__img {
   padding: 1em;
 }
@@ -827,12 +835,32 @@ figure {
   text-align: start;
   font-family: "Montserrat", sans-serif;
 }
+.swiper-pagination-bullet swiper-pagination-bullet-active {
+  background-color: red !important;
+  color: red !important;
+}
+
+// .swiper-button-next.swiper-button-disabled,
+// .swiper-button-prev.swiper-button-disabled {
+//   opacity: 1 !important;
+//   cursor: auto;
+//   background-color: #b29c3f !important;
+//   padding: 28px;
+//   // margin-left: 7em;
+//   border-radius: 80px;
+//   color: white !important;
+//   font-size: 2px !important;
+// }
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
-  background-color: red !important;
-  padding: 2px;
-  border-radius: 50px;
+  background-color: #b29c3f !important;
+  padding: 15px 21px;
+  margin-right: 10em;
+  border-radius: 80px;
+  color: white !important;
+  font-size: 25px;
 }
+
 @media (max-width: 1450px) {
   .farmhouse__swiper__picture {
     width: 80%;
@@ -931,6 +959,7 @@ figure {
   .menu__btn {
     display: flex;
   }
+
   .oakland_section__weaper__overlay__navbar__right {
     width: 100%;
     display: flex;
@@ -1007,8 +1036,7 @@ figure {
     margin: 1em;
   }
   .about__section__thirdentry__buttom {
-    width: 20%;
-    margin-top: 1em;
+    margin: 0 auto;
   }
   .about__section__thirdentry {
     width: 90%;
@@ -1040,10 +1068,7 @@ figure {
   .about__section__thirdentry__text {
     width: 100%;
   }
-  .about__section__thirdentry__buttom {
-    width: 69%;
-    margin-top: 1em;
-  }
+
   .feature__content__card {
     width: 40%;
   }
@@ -1156,9 +1181,7 @@ figure {
   .about__section__thirdentry {
     width: 65%;
   }
-  .about__section__thirdentry__buttom {
-    width: 36%;
-  }
+
   .about__section__secondentry {
     width: 80%;
   }
@@ -1267,9 +1290,6 @@ figure {
   .about__section__thirdentry {
     width: 80%;
   }
-  .about__section__thirdentry__buttom {
-    width: 37%;
-  }
 }
 @media (max-width: 660px) {
   .about__section__firstentry__top__img img {
@@ -1279,9 +1299,7 @@ figure {
   .farm__house__content__heading {
     font-size: 32px;
   }
-  .about__section__thirdentry__buttom {
-    width: 42%;
-  }
+
   .feature__content__card {
     width: 80%;
     margin: 2%;
@@ -1349,9 +1367,7 @@ figure {
   .about__section__thirdentry {
     width: 90%;
   }
-  .about__section__thirdentry__buttom {
-    width: 46%;
-  }
+
   .about__section__firstentry {
     flex-direction: column;
   }
@@ -1387,9 +1403,9 @@ figure {
   .luxury__section__right__image {
     height: 3s2px;
   }
-  .about__section__thirdentry__buttom {
-    width: 55%;
-  }
+  // .about__section__thirdentry__buttom {
+  //   width: 55%;
+  // }
   .farm__house__content__heading {
     font-size: 28px;
   }

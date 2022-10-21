@@ -11,7 +11,7 @@ import map from "../assets/map.svg";
 import map2 from "../assets/map2.svg";
 import farmbackground from "../assets/farm-background.png";
 import { Menu, X } from "react-feather";
-
+import Reveal from "react-reveal/Reveal";
 import first from "../assets/first.svg";
 import first2 from "../assets/first2.svg";
 import first3 from "../assets/first3.svg";
@@ -80,9 +80,9 @@ export default function Header() {
                 }}
               >
                 {active ? (
-                  <X width={30} color="red" />
+                  <X width={30} color="#b29c3f" />
                 ) : (
-                  <Menu width={30} color="red" />
+                  <Menu width={30} color="#b29c3f" />
                 )}
               </button>
             </div>
@@ -313,7 +313,7 @@ export default function Header() {
               has been the industry.
             </div>
           </div>
-          <div className="farm__house__content__left__button">Contact Us</div>
+          <div className="about__section__thirdentry__buttom">Contact Us</div>
         </div>
       </div>
 
