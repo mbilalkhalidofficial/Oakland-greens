@@ -10,6 +10,7 @@ import oaklandlogo from "../assets/oaklandlogo.png";
 import map from "../assets/map.svg";
 import map2 from "../assets/map2.svg";
 import farmbackground from "../assets/farm-background.png";
+import { Menu, X } from "react-feather";
 
 import first from "../assets/first.svg";
 import first2 from "../assets/first2.svg";
@@ -17,10 +18,12 @@ import first3 from "../assets/first3.svg";
 import firstfour from "../assets/firstfour.svg";
 import first23 from "../assets/first23.svg";
 import swiperpic from "../assets/swiperpic.png";
+import { useNavigate } from "react-router-dom";
 
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useLayoutEffect, useState } from "react";
 
 // Import Swiper styles
 import "swiper/css";
@@ -29,6 +32,19 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 export default function Header() {
+  const [active, setActive] = useState(false);
+  const navigate = useNavigate();
+  useLayoutEffect(() => {
+    function navStatus() {
+      if (window.innerWidth < 1100) {
+        setActive(false);
+      } else {
+        setActive(true);
+      }
+    }
+    navStatus();
+    window.addEventListener("resize", navStatus);
+  }, []);
   return (
     <>
       <div className="oakland_section">
@@ -45,12 +61,30 @@ export default function Header() {
                   alt=""
                 />
               </div>
-              <div className="oakland_section__weaper__overlay__navbar__right">
-                <NavLink className="navbar__style">Home</NavLink>
-                <NavLink className="navbar__style">About Us</NavLink>
-                <NavLink className="navbar__style">Features</NavLink>
-                <NavLink className="navbar__style">Contact Us</NavLink>
-              </div>
+              {active ? (
+                <div
+                  navigate={navigate}
+                  setActive={setActive}
+                  className="oakland_section__weaper__overlay__navbar__right"
+                >
+                  <NavLink className="navbar__style">Home</NavLink>
+                  <NavLink className="navbar__style">About Us</NavLink>
+                  <NavLink className="navbar__style">Features</NavLink>
+                  <NavLink className="navbar__style">Contact Us</NavLink>
+                </div>
+              ) : null}
+              <button
+                className="menu__btn"
+                onClick={() => {
+                  setActive(!active);
+                }}
+              >
+                {active ? (
+                  <X width={30} color="red" />
+                ) : (
+                  <Menu width={30} color="red" />
+                )}
+              </button>
             </div>
             <div className="oakland_section__weaper__overlay__entry__content">
               <div className="oakland_section__weaper__overlay__entry">

@@ -73,6 +73,9 @@ body::-webkit-scrollbar-track {
   text-decoration: none;
   position: relative;
 }
+.menu__btn {
+  display: none;
+}
 .oakland_section__weaper__overlay__main_heading__para {
   padding: 3em 0em;
 }
@@ -824,6 +827,12 @@ figure {
   text-align: start;
   font-family: "Montserrat", sans-serif;
 }
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  background-color: red !important;
+  padding: 2px;
+  border-radius: 50px;
+}
 @media (max-width: 1450px) {
   .farmhouse__swiper__picture {
     width: 80%;
@@ -918,6 +927,22 @@ figure {
   .about__section__secondentry__overlay {
     left: 10%;
     top: 5%;
+  }
+  .menu__btn {
+    display: flex;
+  }
+  .oakland_section__weaper__overlay__navbar__right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    background-color: #1f4149;
+    padding: 2em;
+    border-radius: 15px;
   }
 }
 @media (max-width: 1000px) {
