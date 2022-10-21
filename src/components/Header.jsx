@@ -11,7 +11,7 @@ import map from "../assets/map.svg";
 import map2 from "../assets/map2.svg";
 import farmbackground from "../assets/farm-background.png";
 import { Menu, X } from "react-feather";
-import Reveal from "react-reveal/Reveal";
+
 import first from "../assets/first.svg";
 import first2 from "../assets/first2.svg";
 import first3 from "../assets/first3.svg";
@@ -61,6 +61,7 @@ export default function Header() {
                   alt=""
                 />
               </div>
+
               {active ? (
                 <div
                   navigate={navigate}
@@ -80,9 +81,9 @@ export default function Header() {
                 }}
               >
                 {active ? (
-                  <X width={30} color="#b29c3f" />
+                  <X width={30} color="red" />
                 ) : (
-                  <Menu width={30} color="#b29c3f" />
+                  <Menu width={30} color="red" />
                 )}
               </button>
             </div>
@@ -206,7 +207,7 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="about__section">
+      <div id="first__section__header" className="about__section">
         <div className="about__section__weaper">
           <div className="about__section__firstentry">
             <div className="about__section__firstentry__top__img">
@@ -313,7 +314,7 @@ export default function Header() {
               has been the industry.
             </div>
           </div>
-          <div className="about__section__thirdentry__buttom">Contact Us</div>
+          <div className="farm__house__content__left__button">Contact Us</div>
         </div>
       </div>
 
@@ -341,85 +342,11 @@ export default function Header() {
         <SwiperSlide className="farmhouse__swiper">
           <img className="farmhouse__swiper__picture" src={swiperpic} alt="" />
         </SwiperSlide>
-        ...
+        <SwiperSlide className="farmhouse__swiper">
+          <img className="farmhouse__swiper__picture" src={swiperpic} alt="" />
+        </SwiperSlide>
       </Swiper>
 
-      {/* <div className="farm__house__feature">
-        <div className="farm__house__feature__section">
-          <div className="farm__house__feature__section__heading">
-            Farm House Feature
-          </div>
-
-          <div className="farm__house__feature__section__waeaper">
-            <div className="farm__house__feature__section__waeaper__svg__two">
-              <div className="farm__house__feature__section__waeaper__svg">
-                <img
-                  className="farm__house__feature__section__waeaper__image"
-                  src={first}
-                  alt=""
-                />
-              </div>
-
-              <div className="farm__house__feature__section__waeaper__svg22">
-                <img
-                  className="farm__house__feature__section__waeaper__images"
-                  src={first23}
-                  alt=""
-                />
-                <div className="s">sds</div>
-              </div>
-            </div>
-            <div className="farm__house__feature__section__waeaper__svg__two">
-              <div className="farm__house__feature__section__waeaper__svg">
-                <img
-                  className="farm__house__feature__section__waeaper__image"
-                  src={first2}
-                  alt=""
-                />
-              </div>
-              <div className="farm__house__feature__section__waeaper__svg22">
-                <img
-                  className="farm__house__feature__section__waeaper__images"
-                  src={first23}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="farm__house__feature__section__waeaper__svg__two">
-              <div className="farm__house__feature__section__waeaper__svg">
-                <img
-                  className="farm__house__feature__section__waeaper__image"
-                  src={first}
-                  alt=""
-                />
-              </div>
-              <div className="farm__house__feature__section__waeaper__svg22">
-                <img
-                  className="farm__house__feature__section__waeaper__images"
-                  src={first23}
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="farm__house__feature__section__waeaper__svg__two">
-              <div className="farm__house__feature__section__waeaper__svg">
-                <img
-                  className="farm__house__feature__section__waeaper__image"
-                  src={first}
-                  alt=""
-                />
-              </div>
-              <div className="farm__house__feature__section__waeaper__svg22">
-                <img
-                  className="farm__house__feature__section__waeaper__images"
-                  src={first23}
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
       <section className="Form__House">
         <div className="farm__background">
           <img src={farmbackground} alt="farmbackground " />

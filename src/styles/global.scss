@@ -611,10 +611,13 @@ figure {
   top: 15%;
   left: -3%;
 }
+
 .farm__house__content__one__heading {
   color: #fff;
   font-size: 18px;
   padding-top: 1em;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
 }
 .farm__house__content__one {
   width: 20%;
@@ -697,8 +700,10 @@ figure {
   border: #b29c3f 2px solid;
   transition: all 0.3s ease-in-out;
 }
-.farm__house__content__two:hover .farm__house__content__one__svg svg {
-  fill: #fff;
+.farm__house__content__two:hover {
+  .farm__house__content__ones__svg {
+    fill: #fff;
+  }
 }
 .farm__house__content__three:hover {
   background-color: #b29c3f;
@@ -714,7 +719,7 @@ figure {
   transition: all 0.3s ease-in-out;
 }
 .farm__house__content__four:hover .farm__house__content__one__svg svg {
-  fill: #fff;
+  fill: white;
 }
 .farm__house__content__five:hover {
   background-color: #b29c3f;
@@ -851,16 +856,50 @@ figure {
 //   color: white !important;
 //   font-size: 2px !important;
 // }
-.swiper-button-next:after,
-.swiper-rtl .swiper-button-prev:after {
-  background-color: #b29c3f !important;
-  padding: 15px 21px;
-  margin-right: 10em;
-  border-radius: 80px;
-  color: white !important;
-  font-size: 25px;
-}
+// .swiper-button-next:after,
+// .swiper-button-prev:after {
+//   background-color: #b29c3f !important;
+//   padding: 15px 21px;
+//   margin-right: 10em;
+//   border-radius: 80px;
+//   color: white !important;
+//   font-size: 25px;
+//   color: white !important;
+// }
 
+// .swiper-button-prev {
+//   background-color: #b29c3f;
+//   background-color: #b29c3f;
+//   // right: 10px;
+//   padding: 32px;
+
+//   font-size: 12px;
+//   border-radius: 50px;
+//   color: white !important;
+//   fill: black !important;
+//   stroke: black !important;
+// }
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: #b29c3f !important;
+  width: 50px !important;
+  height: 50px !important;
+  color: white !important;
+  padding: 1em !important;
+  border-radius: 50px !important;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  scale: 0.5;
+}
+.swiper-button-disabled {
+  background-color: #1f4149 !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #b29c3f !important;
+  width: 20px !important;
+  border-radius: 20px !important;
+}
 @media (max-width: 1450px) {
   .farmhouse__swiper__picture {
     width: 80%;

@@ -2,13 +2,12 @@ import React from "react";
 import map from "../assets/map.png";
 import luxury from "../assets/luxury.png";
 
-import { Navigation, Pagination, A11y } from "swiper";
+import { Navigation, A11y } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-import "swiper/css/pagination";
 
 export default function index() {
   return (
@@ -32,7 +31,7 @@ export default function index() {
             <Swiper
               className="z"
               // install Swiper modules
-              modules={[Navigation, Pagination, A11y]}
+              modules={[Navigation, A11y]}
               spaceBetween={50}
               slidesPerView={1}
               navigation
@@ -88,7 +87,6 @@ export default function index() {
                   </div>
                 </div>
               </SwiperSlide>
-              ...
             </Swiper>
           </div>
         </div>
