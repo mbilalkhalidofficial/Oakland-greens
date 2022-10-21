@@ -452,7 +452,7 @@ export default function Header() {
                   </svg>
                 </div>
                 <div className="farm__house__content__one__heading">
-                  Elevator
+                  Laundry Facilities
                 </div>
               </div>
               <div className="farm__house__content__three">
@@ -481,7 +481,7 @@ export default function Header() {
                   </svg>
                 </div>
                 <div className="farm__house__content__one__heading">
-                  Elevator
+                  Walk In Closet
                 </div>
               </div>
               <div className="farm__house__content__four">
@@ -510,7 +510,7 @@ export default function Header() {
                   </svg>
                 </div>
                 <div className="farm__house__content__one__heading">
-                  Elevator
+                  Fire Place{" "}
                 </div>
               </div>
             </div>
@@ -570,7 +570,7 @@ export default function Header() {
                   </svg>
                 </div>
                 <div className="farm__house__content__one__heading">
-                  Elevator
+                  Laundry Facilities
                 </div>
               </div>
               <div className="farm__house__content__seven">
@@ -599,7 +599,7 @@ export default function Header() {
                   </svg>
                 </div>
                 <div className="farm__house__content__one__heading">
-                  Elevator
+                  Walk In Closet
                 </div>
               </div>
               <div className="farm__house__content__eight">
@@ -628,7 +628,7 @@ export default function Header() {
                   </svg>
                 </div>
                 <div className="farm__house__content__one__heading">
-                  Elevator
+                  Fire Place
                 </div>
               </div>
             </div>
