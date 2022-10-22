@@ -329,6 +329,7 @@ export default function Header() {
       >
         <SwiperSlide className="farmhouse__swiper">
           <img className="farmhouse__swiper__picture" src={swiperpic} alt="" />
+          <div>sdd</div>
         </SwiperSlide>
         <SwiperSlide className="farmhouse__swiper">
           <img className="farmhouse__swiper__picture" src={swiperpic} alt="" />
