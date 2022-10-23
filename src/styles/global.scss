@@ -419,6 +419,7 @@ figure {
   border-radius: 10px;
   background-color: #b29c3f;
   font-family: "Montserrat", sans-serif;
+  transition: all 0.3s ease-in-out;
 }
 .oakland_section__weaper__overlay__two__left:hover {
   padding: 12px 3em;
@@ -441,6 +442,7 @@ figure {
   font-size: 16px;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
+  transition: all 0.3s ease-in-out;
 }
 .oakland_section__weaper__overlay__two__right:hover {
   padding: 12px 3em;
@@ -627,9 +629,15 @@ figure {
   color: white;
   font-family: "Montserrat", sans-serif;
   text-align: center;
-
+  border: 1px solid transparent;
   margin-top: 1.5em;
 }
+.about__section__thirdentry__buttom:hover {
+  background-color: transparent;
+  border: 1px solid black;
+  color: #1f4149;
+}
+
 .farm__house__content__left__button {
   width: 30%;
   padding: 9px 2em;
