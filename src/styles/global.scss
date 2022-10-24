@@ -60,6 +60,7 @@ body::-webkit-scrollbar-track {
   padding: 1em;
   font-size: 20px;
 }
+
 .navbar__style::before {
   background-color: #b29c3f;
   content: "";
@@ -169,6 +170,11 @@ figure {
   height: 750px;
   cursor: pointer;
 }
+.about__section__secondentry__para {
+  line-height: 24px;
+  opacity: 0.8;
+}
+
 //150%
 @media only screen and (min-width: 1200px) {
   .oakland_section__weaper__overlay {
@@ -348,6 +354,7 @@ figure {
 @media only screen and (min-width: 1770px) {
   .about__section__secondentry__para {
     line-height: 24px;
+    opacity: 0.8;
   }
   .about__section__secondentry__heading {
     font-size: 50px !important;
@@ -549,6 +556,9 @@ figure {
   .feature__content__card__svg {
     display: none;
   }
+  .feature__content__card__para {
+    color: white;
+  }
 }
 
 .feature__content__card_two__entry {
@@ -559,6 +569,10 @@ figure {
 .feature__content__card__para {
   font-family: "Montserrat", sans-serif;
   padding-top: 20px;
+  line-height: 22px;
+
+  color: rgba(31, 65, 73, 0.6);
+  font-weight: 400;
 }
 
 .about__section {
@@ -646,6 +660,8 @@ figure {
   padding: 5px 0em;
   width: 85%;
   text-align: center;
+
+  color: rgba(255, 251, 251, 0.69);
 }
 .farm__house__content__twopart {
   padding: 0em 18em;
