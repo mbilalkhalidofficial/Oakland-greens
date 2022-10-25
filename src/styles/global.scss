@@ -812,11 +812,11 @@ figure {
   align-items: center;
   width: 0%;
 }
-.farmhouse__swiper__picture {
-  width: 100%;
-  height: 530px;
-  margin-bottom: 3em;
-}
+// .farmhouse__swiper__picture {
+//   width: 100%;
+//   height: 530px;
+//   margin-bottom: 3em;
+// }
 .s {
   width: 76%;
 }
@@ -907,7 +907,10 @@ figure {
 // height: 100%;
 
 // }
-
+.farmhouse__swiper__picture {
+  width: 100%;
+  height: 473px;
+}
 .Form__House {
   height: 600px;
   width: 100%;
@@ -1252,7 +1255,7 @@ figure {
 }
 @media (max-width: 1450px) {
   .farmhouse__swiper__picture {
-    width: 80%;
+    width: 100%;
     height: 473px;
   }
 
@@ -1514,10 +1517,10 @@ figure {
   }
 }
 @media (max-width: 950px) {
-  .farmhouse__swiper__picture {
-    width: 85%;
-    height: 473px;
-  }
+  // .farmhouse__swiper__picture {
+  //   width: 85%;
+  //   height: 473px;
+  // }
   .about__section__weaper {
     display: flex;
   }
@@ -1550,10 +1553,10 @@ figure {
 }
 
 @media (max-width: 850px) {
-  .farmhouse__swiper__picture {
-    width: 90%;
-    height: 423px;
-  }
+  // .farmhouse__swiper__picture {
+  //   width: 90%;
+  //   height: 423px;
+  // }
   .farm__house__content__part__two {
     margin-left: 0px;
   }
@@ -1607,10 +1610,10 @@ figure {
   }
 }
 @media (max-width: 700px) {
-  .farmhouse__swiper__picture {
-    width: 90%;
-    height: 380px;
-  }
+  // .farmhouse__swiper__picture {
+  //   width: 90%;
+  //   height: 380px;
+  // }
   .farm__house__content__overlay {
     top: 8%;
   }
@@ -1723,20 +1726,20 @@ figure {
   .headerback__second img {
     height: 410px;
   }
-  .farmhouse__swiper__picture {
-    width: 90%;
-    height: 340px;
-  }
+  // .farmhouse__swiper__picture {
+  //   width: 90%;
+  //   height: 340px;
+  // }
 }
 
 @media (max-width: 515px) {
   .luxury__section__right__image {
     height: 362px;
   }
-  .farmhouse__swiper__picture {
-    width: 90%;
-    height: 310px;
-  }
+  // .farmhouse__swiper__picture {
+  //   width: 90%;
+  //   height: 310px;
+  // }
   .farm__house__content__heading {
     font-size: 30px;
   }
