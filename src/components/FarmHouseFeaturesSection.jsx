@@ -22,14 +22,14 @@ export function FarmHouseFeaturesSection() {
                 >
                   <path
                     d="M3.39062 3.68311H67.8924M3.39062 55.8988H67.8924M35.6415 3.68311V55.8988M49.4633 23.6479V35.934M7.99789 3.68311H63.2851V55.8988H7.99789V3.68311Z"
-                    stroke="#B29C3F"
+                    stroke="currentColor"
                     strokeWidth="6.14302"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
                     d="M44.8565 28.2552L49.4638 23.6479L54.071 28.2552M21.8202 35.934V23.6479M21.8202 35.934L17.2129 31.3267M21.8202 35.934L26.4274 31.3267"
-                    stroke="#B29C3F"
+                    stroke="currentColor"
                     strokeWidth="6.14302"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -49,14 +49,14 @@ export function FarmHouseFeaturesSection() {
                 >
                   <path
                     d="M3.39062 3.68311H67.8924M3.39062 55.8988H67.8924M35.6415 3.68311V55.8988M49.4633 23.6479V35.934M7.99789 3.68311H63.2851V55.8988H7.99789V3.68311Z"
-                    stroke="#B29C3F"
+                    stroke="currentColor"
                     strokeWidth="6.14302"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
                     d="M44.8565 28.2552L49.4638 23.6479L54.071 28.2552M21.8202 35.934V23.6479M21.8202 35.934L17.2129 31.3267M21.8202 35.934L26.4274 31.3267"
-                    stroke="#B29C3F"
+                    stroke="currentColor"
                     strokeWidth="6.14302"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -78,14 +78,14 @@ export function FarmHouseFeaturesSection() {
                 >
                   <path
                     d="M3.39062 3.68311H67.8924M3.39062 55.8988H67.8924M35.6415 3.68311V55.8988M49.4633 23.6479V35.934M7.99789 3.68311H63.2851V55.8988H7.99789V3.68311Z"
-                    stroke="#B29C3F"
+                    stroke="currentColor"
                     strokeWidth="6.14302"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
                     d="M44.8565 28.2552L49.4638 23.6479L54.071 28.2552M21.8202 35.934V23.6479M21.8202 35.934L17.2129 31.3267M21.8202 35.934L26.4274 31.3267"
-                    stroke="#B29C3F"
+                    stroke="currentColor"
                     strokeWidth="6.14302"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -107,14 +107,14 @@ export function FarmHouseFeaturesSection() {
                 >
                   <path
                     d="M3.39062 3.68311H67.8924M3.39062 55.8988H67.8924M35.6415 3.68311V55.8988M49.4633 23.6479V35.934M7.99789 3.68311H63.2851V55.8988H7.99789V3.68311Z"
-                    stroke="#B29C3F"
+                    stroke="currentColor"
                     strokeWidth="6.14302"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
                     d="M44.8565 28.2552L49.4638 23.6479L54.071 28.2552M21.8202 35.934V23.6479M21.8202 35.934L17.2129 31.3267M21.8202 35.934L26.4274 31.3267"
-                    stroke="#B29C3F"
+                    stroke="currentColor"
                     strokeWidth="6.14302"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -138,14 +138,14 @@ export function FarmHouseFeaturesSection() {
                 >
                   <path
                     d="M3.39062 3.68311H67.8924M3.39062 55.8988H67.8924M35.6415 3.68311V55.8988M49.4633 23.6479V35.934M7.99789 3.68311H63.2851V55.8988H7.99789V3.68311Z"
-                    stroke="#B29C3F"
+                    stroke="currentColor"
                     strokeWidth="6.14302"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
                     d="M44.8565 28.2552L49.4638 23.6479L54.071 28.2552M21.8202 35.934V23.6479M21.8202 35.934L17.2129 31.3267M21.8202 35.934L26.4274 31.3267"
-                    stroke="#B29C3F"
+                    stroke="currentColor"
                     strokeWidth="6.14302"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -165,14 +165,14 @@ export function FarmHouseFeaturesSection() {
                 >
                   <path
                     d="M3.39062 3.68311H67.8924M3.39062 55.8988H67.8924M35.6415 3.68311V55.8988M49.4633 23.6479V35.934M7.99789 3.68311H63.2851V55.8988H7.99789V3.68311Z"
-                    stroke="#B29C3F"
+                    stroke="currentColor"
                     strokeWidth="6.14302"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
                     d="M44.8565 28.2552L49.4638 23.6479L54.071 28.2552M21.8202 35.934V23.6479M21.8202 35.934L17.2129 31.3267M21.8202 35.934L26.4274 31.3267"
-                    stroke="#B29C3F"
+                    stroke="currentColor"
                     strokeWidth="6.14302"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -194,14 +194,14 @@ export function FarmHouseFeaturesSection() {
                 >
                   <path
                     d="M3.39062 3.68311H67.8924M3.39062 55.8988H67.8924M35.6415 3.68311V55.8988M49.4633 23.6479V35.934M7.99789 3.68311H63.2851V55.8988H7.99789V3.68311Z"
-                    stroke="#B29C3F"
+                    stroke="currentColor"
                     strokeWidth="6.14302"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
                     d="M44.8565 28.2552L49.4638 23.6479L54.071 28.2552M21.8202 35.934V23.6479M21.8202 35.934L17.2129 31.3267M21.8202 35.934L26.4274 31.3267"
-                    stroke="#B29C3F"
+                    stroke="currentColor"
                     strokeWidth="6.14302"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -223,14 +223,14 @@ export function FarmHouseFeaturesSection() {
                 >
                   <path
                     d="M3.39062 3.68311H67.8924M3.39062 55.8988H67.8924M35.6415 3.68311V55.8988M49.4633 23.6479V35.934M7.99789 3.68311H63.2851V55.8988H7.99789V3.68311Z"
-                    stroke="#B29C3F"
+                    stroke="currentColor"
                     strokeWidth="6.14302"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
                     d="M44.8565 28.2552L49.4638 23.6479L54.071 28.2552M21.8202 35.934V23.6479M21.8202 35.934L17.2129 31.3267M21.8202 35.934L26.4274 31.3267"
-                    stroke="#B29C3F"
+                    stroke="currentColor"
                     strokeWidth="6.14302"
                     strokeLinecap="round"
                     strokeLinejoin="round"

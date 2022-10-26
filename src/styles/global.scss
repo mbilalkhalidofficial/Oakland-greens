@@ -970,8 +970,11 @@ figure {
   border: #b29c3f 2px solid;
   transition: all 0.3s ease-in-out;
 }
-.farm__house__content__one:hover .farm__house__content__one__svg svg {
-  fill: #fff;
+.farm__house__content__one .farm__house__content__one__svg {
+  color: #b29c3f;
+}
+.farm__house__content__one:hover .farm__house__content__one__svg {
+  color: white;
 }
 .farm__house__content__two {
   width: 20%;
@@ -1047,8 +1050,11 @@ figure {
   border: #b29c3f 2px solid;
   transition: all 0.3s ease-in-out;
 }
-.farm__house__content__three:hover .farm__house__content__one__svg svg {
-  fill: #fff;
+.farm__house__content__three .farm__house__content__one__svg {
+  color: #b29c3f;
+}
+.farm__house__content__three:hover .farm__house__content__one__svg {
+  color: white;
 }
 .farm__house__content__four:hover {
   background-color: #b29c3f;
