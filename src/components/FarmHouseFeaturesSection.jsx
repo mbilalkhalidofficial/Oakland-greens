@@ -154,7 +154,7 @@ export function FarmHouseFeaturesSection() {
               </div>
               <div className="farm__house__content__one__heading">Elevator</div>
             </div>
-            <div className="farm__house__content__six">
+            <div className="farm__house__content__two">
               <div className="farm__house__content__one__svg">
                 <svg
                   width="60"
