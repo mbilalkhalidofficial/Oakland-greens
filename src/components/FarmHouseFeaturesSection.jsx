@@ -14,8 +14,8 @@ export function FarmHouseFeaturesSection() {
             <div className="farm__house__content__one">
               <div className="farm__house__content__one__svg">
                 <svg
-                  width="71"
-                  height="59"
+                  width="60"
+                  height="60"
                   viewBox="0 0 71 59"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -41,8 +41,8 @@ export function FarmHouseFeaturesSection() {
             <div className="farm__house__content__two">
               <div className="farm__house__content__one__svg">
                 <svg
-                  width="71"
-                  height="59"
+                  width="60"
+                  height="60"
                   viewBox="0 0 71 59"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -70,8 +70,8 @@ export function FarmHouseFeaturesSection() {
             <div className="farm__house__content__three">
               <div className="farm__house__content__one__svg">
                 <svg
-                  width="71"
-                  height="59"
+                  width="60"
+                  height="60"
                   viewBox="0 0 71 59"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -99,8 +99,8 @@ export function FarmHouseFeaturesSection() {
             <div className="farm__house__content__four">
               <div className="farm__house__content__one__svg">
                 <svg
-                  width="71"
-                  height="59"
+                  width="60"
+                  height="60"
                   viewBox="0 0 71 59"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -130,8 +130,8 @@ export function FarmHouseFeaturesSection() {
             <div className="farm__house__content__five">
               <div className="farm__house__content__one__svg">
                 <svg
-                  width="71"
-                  height="59"
+                  width="60"
+                  height="60"
                   viewBox="0 0 71 59"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -157,8 +157,8 @@ export function FarmHouseFeaturesSection() {
             <div className="farm__house__content__six">
               <div className="farm__house__content__one__svg">
                 <svg
-                  width="71"
-                  height="59"
+                  width="60"
+                  height="60"
                   viewBox="0 0 71 59"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -186,8 +186,8 @@ export function FarmHouseFeaturesSection() {
             <div className="farm__house__content__seven">
               <div className="farm__house__content__one__svg">
                 <svg
-                  width="71"
-                  height="59"
+                  width="60"
+                  height="60"
                   viewBox="0 0 71 59"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -215,8 +215,8 @@ export function FarmHouseFeaturesSection() {
             <div className="farm__house__content__eight">
               <div className="farm__house__content__one__svg">
                 <svg
-                  width="71"
-                  height="59"
+                  width="60"
+                  height="60"
                   viewBox="0 0 71 59"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
