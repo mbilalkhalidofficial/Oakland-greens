@@ -31,7 +31,7 @@ export function FarmSection() {
         onSlideChange={() => console.log("slide change")}
       >
         <SwiperSlide className="farmhouse__swiper">
-          <div className="s">
+          <div className="farmhouse__swiper__picture__wrapper">
             <div>
               <img
                 className="farmhouse__swiper__picture"
@@ -93,7 +93,7 @@ export function FarmSection() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="farmhouse__swiper">
-          <div className="s">
+          <div className="farmhouse__swiper__picture__wrapper">
             <div>
               <img
                 className="farmhouse__swiper__picture"
@@ -155,7 +155,7 @@ export function FarmSection() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="farmhouse__swiper">
-          <div className="s">
+          <div className="farmhouse__swiper__picture__wrapper">
             <div>
               <img
                 className="farmhouse__swiper__picture"
@@ -217,7 +217,7 @@ export function FarmSection() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="farmhouse__swiper">
-          <div className="s">
+          <div className="farmhouse__swiper__picture__wrapper">
             <div>
               <img
                 className="farmhouse__swiper__picture"
@@ -279,7 +279,7 @@ export function FarmSection() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="farmhouse__swiper">
-          <div className="s">
+          <div className="farmhouse__swiper__picture__wrapper">
             <div>
               <img
                 className="farmhouse__swiper__picture"
@@ -341,7 +341,7 @@ export function FarmSection() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="farmhouse__swiper">
-          <div className="s">
+          <div className="farmhouse__swiper__picture__wrapper">
             <div>
               <img
                 className="farmhouse__swiper__picture"
