@@ -1002,44 +1002,53 @@ figure {
 .farm__house__content__one .farm__house__content__one__svg {
   color: #b29c3f;
 }
-.farm__house__content__one:hover .farm__house__content__one__svg {
+.farm__house__content__one:hover .farm__house__content__one__svg * {
   color: white;
+
+  stroke: white;
 }
 .farm__house__content__two .farm__house__content__one__svg {
   color: #b29c3f;
 }
-.farm__house__content__two:hover .farm__house__content__one__svg {
+.farm__house__content__two:hover .farm__house__content__one__svg * {
   color: white;
+  fill: white;
+  stroke: white;
 }
 .farm__house__content__four .farm__house__content__one__svg {
   color: #b29c3f;
 }
-.farm__house__content__four:hover .farm__house__content__one__svg {
+.farm__house__content__four:hover .farm__house__content__one__svg * {
   color: white;
+  stroke: white;
 }
 .farm__house__content__five .farm__house__content__one__svg {
   color: #b29c3f;
 }
-.farm__house__content__five:hover .farm__house__content__one__svg {
+.farm__house__content__five:hover .farm__house__content__one__svg * {
   color: white;
+  stroke: white;
 }
 .farm__house__content__six.farm__house__content__one__svg {
   color: #b29c3f;
 }
-.farm__house__content__six:hover .farm__house__content__one__svg {
+.farm__house__content__six:hover .farm__house__content__one__svg * {
   color: white;
+  stroke: white;
 }
 .farm__house__content__seven .farm__house__content__one__svg {
   color: #b29c3f;
 }
-.farm__house__content__seven:hover .farm__house__content__one__svg {
+.farm__house__content__seven:hover .farm__house__content__one__svg * {
   color: white;
+  stroke: white;
 }
 .farm__house__content__eight .farm__house__content__one__svg {
   color: #b29c3f;
 }
-.farm__house__content__eight:hover .farm__house__content__one__svg {
+.farm__house__content__eight:hover .farm__house__content__one__svg * {
   color: white;
+  stroke: white;
 }
 
 .farm__house__content__two {
@@ -1119,8 +1128,9 @@ figure {
 .farm__house__content__three .farm__house__content__one__svg {
   color: #b29c3f;
 }
-.farm__house__content__three:hover .farm__house__content__one__svg {
+.farm__house__content__three:hover .farm__house__content__one__svg * {
   color: white;
+  stroke: white;
 }
 
 .farm__house__content__four:hover {
