@@ -487,6 +487,7 @@ figure {
   justify-content: space-between;
   align-items: center;
 }
+
 .oakland_section__weaper__overlay__two__left:hover {
   padding: 12px 3em;
   margin-right: 1em;
@@ -743,7 +744,7 @@ figure {
   width: 70%;
 }
 .farm__house {
-  margin-top: 2em;
+  margin-top: 5em;
 }
 .farm__house__content__left__para {
   font-family: "Inter", sans-serif;
@@ -1348,6 +1349,15 @@ figure {
 }
 
 @media (max-width: 1150px) {
+  .luxury__section__right__image {
+    height: 461px;
+  }
+  .luxury__section__left__heading {
+    line-height: 59px;
+    font-weight: 400;
+    font-size: 41px;
+    width: 93%;
+  }
   .headerback__second img {
     height: 450px;
     width: 700px;
@@ -1436,6 +1446,10 @@ figure {
   }
 }
 @media (max-width: 1000px) {
+  .about__section__thirdentry__img img {
+    height: 527px;
+    width: 100%;
+  }
   .luxury__section__right {
     justify-content: center;
     align-items: center;
@@ -1459,7 +1473,20 @@ figure {
   .feature {
     margin-top: 15em;
   }
+  .luxury__section__left__button {
+    margin: 0 auto;
+  }
+  .luxury__section__left {
+    padding: 2em 0em;
+  }
+  .luxury__section__left__para {
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+  }
 }
+
 @media (max-width: 1000px) {
   .luxury__section {
     width: 100%;
@@ -1518,6 +1545,12 @@ figure {
 }
 
 @media (max-width: 950px) {
+  .location__Section__text {
+    font-size: 45px;
+  }
+  .location__Section__para {
+    width: 80%;
+  }
   .feature__content {
     width: 100%;
     flex-wrap: wrap;
@@ -1581,6 +1614,9 @@ figure {
   //   width: 85%;
   //   height: 473px;
   // }
+  .farm__house__content {
+    padding-bottom: 2em;
+  }
   .about__section__weaper {
     display: flex;
   }
@@ -1634,6 +1670,11 @@ figure {
   // .farm__house__content__twopart {
   //   display: flex;
   // }
+  .farmhouse__swiper__picture {
+    width: 100%;
+    height: 418px;
+  }
+
   .oakland_section {
     height: 112vh;
   }
@@ -1741,6 +1782,12 @@ figure {
   }
 }
 @media (max-width: 615px) {
+  .location__Section__text {
+    font-size: 40px;
+  }
+  .location__Section__para {
+    width: 90% !important;
+  }
   .luxury__section__left__heading {
     font-size: 28px;
   }
@@ -1752,6 +1799,10 @@ figure {
 @media (max-width: 660px) {
   .location__Section__img {
     width: 95%;
+  }
+  .farmhouse__swiper__picture {
+    width: 100%;
+    height: 360px;
   }
   .location__Section__img iframe {
     height: 200px;
@@ -1772,7 +1823,7 @@ figure {
     margin: 2%;
   }
   .farm__house__content {
-    padding: 0em 2em;
+    padding: 1em 2em;
   }
   .farm__house__content__left__heading {
     font-size: 30px;
@@ -1793,6 +1844,30 @@ figure {
 }
 
 @media (max-width: 515px) {
+  .about__section__thirdentry__text {
+    font-size: 33px !important;
+    line-height: 44px;
+  }
+  .about__section__weaper {
+    padding: 3em 0em !important;
+  }
+  .farm__house__content {
+    padding: 0em 1em;
+    padding-bottom: 2em;
+  }
+  .luxury__section {
+    padding: 1em 1em;
+  }
+  .luxury__section__left__para {
+    padding: 1em;
+    width: 100%;
+  }
+  .location__Section__text {
+    font-size: 30px;
+  }
+  .location__Section__para {
+    font-size: 14px;
+  }
   .luxury__section__right__image {
     height: 362px;
   }
@@ -1867,6 +1942,14 @@ figure {
   }
 }
 @media (max-width: 450px) {
+  .farmhouse__swiper__picture {
+    width: 100%;
+    height: 287px;
+  }
+  .about__section__thirdentry__text {
+    font-size: 26px !important;
+    line-height: 38px;
+  }
   .luxury__section__right__image {
     height: 3s2px;
   }
@@ -1929,5 +2012,14 @@ figure {
   }
   .about__section__firstentry__top__img img {
     height: 363px;
+  }
+}
+
+@media (max-width: 450px) {
+  .luxury__section__left__heading {
+    line-height: 42px;
+  }
+  .luxury__section {
+    padding: 0em 1em !important;
   }
 }
