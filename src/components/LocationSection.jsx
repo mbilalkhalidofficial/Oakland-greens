@@ -2,7 +2,7 @@ import React from "react";
 
 export function LocationSection() {
   return (
-    <div className="location">
+    <section id="loction" className="location">
       <div className="location__Section">
         <div className="location__Section__text">Our location</div>
         <div className="location__Section__para">
@@ -26,6 +26,6 @@ export function LocationSection() {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 }

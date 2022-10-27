@@ -3,7 +3,7 @@ import farmbackground from "../assets/farm-background.png";
 
 export function FarmHouseFeaturesSection() {
   return (
-    <section className="Form__House">
+    <section className="Form__House" id="feature">
       <div className="farm__background">
         <img src={farmbackground} alt="farmbackground " />
       </div>

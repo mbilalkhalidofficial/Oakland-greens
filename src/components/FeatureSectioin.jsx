@@ -4,7 +4,7 @@ import map2 from "../assets/map2.svg";
 
 export function FeatureSectioin() {
   return (
-    <div className="feature">
+    <section className="feature">
       <div className="feature__content">
         <div className="feature__content__card">
           <div className="feature__content__card_two__entry">
@@ -76,6 +76,6 @@ export function FeatureSectioin() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

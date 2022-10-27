@@ -21,7 +21,7 @@ export function HomeSection() {
     window.addEventListener("resize", navStatus);
   }, []);
   return (
-    <div className="oakland_section">
+    <section id="home" className="oakland_section">
       <div className="oakland_section__weaper">
         <div className="oakland_section__weaper__backimg">
           <div className="oakland_section__weaper__backimgs"></div>
@@ -42,10 +42,18 @@ export function HomeSection() {
                 setActive={setActive}
                 className="oakland_section__weaper__overlay__navbar__right"
               >
-                <NavLink className="navbar__style">Home</NavLink>
-                <NavLink className="navbar__style">About Us</NavLink>
-                <NavLink className="navbar__style">Features</NavLink>
-                <NavLink className="navbar__style">Contact Us</NavLink>
+                <a href="#home" className="navbar__style">
+                  Home
+                </a>
+                <a href="#first__section__header" className="navbar__style">
+                  About Us
+                </a>
+                <a href="#feature" className="navbar__style">
+                  Features
+                </a>
+                <a href="#contact" className="navbar__style">
+                  Contact Us
+                </a>
               </div>
             ) : null}
             <button
@@ -96,6 +104,6 @@ export function HomeSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

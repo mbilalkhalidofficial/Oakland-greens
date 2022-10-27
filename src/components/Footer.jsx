@@ -5,7 +5,7 @@ import footerlogo from "../assets/footer-logo.png";
 
 export default function Footer() {
   return (
-    <section id="Contact" className="Footer">
+    <section id="contact" className="Footer">
       <div className="footer__background">
         <img src={footerbackground} alt="footerbackground" />
       </div>

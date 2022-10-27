@@ -5,7 +5,7 @@ import aboutlast from "../assets/aboutlast.png";
 
 export function AboutUsSection() {
   return (
-    <div id="first__section__header" className="about__section">
+    <section id="first__section__header" className="about__section">
       <div className="about__section__weaper">
         <div className="about__section__firstentry">
           <div className="about__section__firstentry__top__img">
@@ -87,6 +87,6 @@ export function AboutUsSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
