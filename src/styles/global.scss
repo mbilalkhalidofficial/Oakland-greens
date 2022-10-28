@@ -156,8 +156,6 @@ body::-webkit-scrollbar-track {
   bottom: 0%;
   right: -18%;
   top: 20%;
-  // height: 690px;
-
   max-width: 850px;
 
   transition: all 0.4s ease-in-out;
@@ -206,8 +204,6 @@ figure {
     bottom: 0%;
     right: -30%;
     top: 20%;
-    // height: 690px;
-
     max-width: 540px;
   }
   .oakland_section__weaper__overlay__main_heading {
@@ -262,8 +258,6 @@ figure {
     bottom: 0%;
     right: -21%;
     top: 19%;
-    // height: 690px;
-
     max-width: 690px;
   }
   .oakland_section__weaper__overlay__main_heading {
@@ -327,8 +321,6 @@ figure {
     bottom: 0%;
     right: -18%;
     top: 20%;
-    // height: 690px;
-
     max-width: 780px;
   }
   .oakland_section__weaper__overlay__main_heading {
@@ -402,8 +394,6 @@ figure {
     bottom: 0%;
     right: -18%;
     top: 20%;
-    // height: 690px;
-
     max-width: 850px;
     border-top-left-radius: 170px;
     border-top-right-radius: 170px;
@@ -575,7 +565,6 @@ figure {
   font-family: "Montserrat", sans-serif;
   padding-top: 20px;
   line-height: 22px;
-
   color: rgba(31, 65, 73, 0.6);
   font-weight: 400;
 }
@@ -599,7 +588,6 @@ figure {
 }
 .about__section__firstentry {
   margin: 1%;
-  // width: 30%;
 }
 .about__section__thirdentry {
   margin: 1%;
@@ -641,7 +629,6 @@ figure {
   padding-bottom: 2em;
 }
 .about__section__secondentry_card {
-  // background-color: firebrick;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -776,54 +763,13 @@ figure {
   font-size: 35px;
 }
 
-// .farm__house__feature__section__waeaper {
-//   display: flex;
-
-//   border: 1px solid red;
-//   margin: 0 auto;
-//   border-bottom-left-radius: 30px;
-//   border-top-right-radius: 30px;
-//   border-top-left-radius: 30px;
-//   width: 80%;
-//   margin-top: 3em;
-//   margin-bottom: 3em;
-//   justify-content: space-between;
-// }
-// .farm__house__feature__section__waeaper__svg {
-//   padding: 5em 4em;
-//   width: 20%;
-// }
-// .farm__house__feature__section__waeaper__svg__two {
-//   width: 20%;
-// }
-// .farm__house__feature__section__waeaper__svg__two:hover {
-//   // background-color: #b29c3f;
-//   border-bottom-left-radius: 30px;
-//   background-color: #b29c3f;
-//   border-top-left-radius: 30px;
-//   .farm__house__feature__section__waeaper__svg22 {
-//     display: flex;
-//   }
-//   .farm__house__feature__section__waeaper__svg {
-//     display: none;
-//   }
-// }
-// .farm__house__feature__section__waeaper__svg22 {
-//   display: none;
-//   padding: 5em 4em;
-//   width: 20%;
-// }
 .farmhouse__swiper {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 0%;
 }
-// .farmhouse__swiper__picture {
-//   width: 100%;
-//   height: 530px;
-//   margin-bottom: 3em;
-// }
+
 .farmhouse__swiper__picture__wrapper {
   width: 100%;
   max-width: 1440px;
@@ -930,11 +876,6 @@ figure {
   padding: 1em;
 }
 
-// .luxury__section__right__img{
-// width: 100%;
-// height: 100%;
-
-// }
 .farmhouse__swiper__picture {
   width: 100%;
   height: 473px;
@@ -1272,40 +1213,6 @@ figure {
   color: red !important;
 }
 
-// .swiper-button-next.swiper-button-disabled,
-// .swiper-button-prev.swiper-button-disabled {
-//   opacity: 1 !important;
-//   cursor: auto;
-//   background-color: #b29c3f !important;
-//   padding: 28px;
-//   // margin-left: 7em;
-//   border-radius: 80px;
-//   color: white !important;
-//   font-size: 2px !important;
-// }
-// .swiper-button-next:after,
-// .swiper-button-prev:after {
-//   background-color: #b29c3f !important;
-//   padding: 15px 21px;
-//   margin-right: 10em;
-//   border-radius: 80px;
-//   color: white !important;
-//   font-size: 25px;
-//   color: white !important;
-// }
-
-// .swiper-button-prev {
-//   background-color: #b29c3f;
-//   background-color: #b29c3f;
-//   // right: 10px;
-//   padding: 32px;
-
-//   font-size: 12px;
-//   border-radius: 50px;
-//   color: white !important;
-//   fill: black !important;
-//   stroke: black !important;
-// }
 .swiper-button-next,
 .swiper-button-prev {
   background-color: #b29c3f !important;
@@ -1361,21 +1268,6 @@ figure {
   }
 }
 
-// @media (max-width: 1150px) {
-//   .luxury__section__right__image {
-//     height: 461px;
-//   }
-//   .luxury__section__left__heading {
-//     line-height: 59px;
-//     font-weight: 400;
-//     font-size: 41px;
-//     width: 93%;
-//   }
-//   .headerback__second img {
-//     height: 450px;
-//     width: 700px;
-//   }
-// }
 @media (max-width: 1115px) {
   .feature__content {
     flex-wrap: wrap;
@@ -1459,6 +1351,7 @@ figure {
     border-radius: 15px;
   }
 }
+
 @media (max-width: 1000px) {
   .about__section__thirdentry__img img {
     height: 527px;
@@ -1499,9 +1392,6 @@ figure {
     margin: 0 auto;
     align-items: center;
   }
-}
-
-@media (max-width: 1000px) {
   .luxury__section {
     width: 100%;
     flex-direction: column;
@@ -1622,12 +1512,6 @@ figure {
     text-align: center;
     width: 95%;
   }
-}
-@media (max-width: 950px) {
-  // .farmhouse__swiper__picture {
-  //   width: 85%;
-  //   height: 473px;
-  // }
   .farm__house__content {
     padding-bottom: 2em;
   }
@@ -1663,10 +1547,6 @@ figure {
 }
 
 @media (max-width: 850px) {
-  // .farmhouse__swiper__picture {
-  //   width: 90%;
-  //   height: 423px;
-  // }
   .famhouse__swiper__card__entry {
     flex-direction: column;
     margin-bottom: 5em;
@@ -1679,9 +1559,6 @@ figure {
   .farm__house__content__part__two {
     margin-left: 0px;
   }
-  // .about__section__firstentry {
-  //   flex-direction: column;
-  // }
 }
 @media (max-width: 780px) {
   .oakland_section {
@@ -1690,9 +1567,6 @@ figure {
 }
 
 @media (max-width: 750px) {
-  // .farm__house__content__twopart {
-  //   display: flex;
-  // }
   .farmhouse__swiper__picture {
     width: 100%;
     height: 418px;
@@ -1734,10 +1608,6 @@ figure {
   }
 }
 @media (max-width: 700px) {
-  // .farmhouse__swiper__picture {
-  //   width: 90%;
-  //   height: 380px;
-  // }
   .farm__house__content__overlay {
     top: 8%;
   }
@@ -1860,10 +1730,6 @@ figure {
   .headerback__second img {
     height: 410px;
   }
-  // .farmhouse__swiper__picture {
-  //   width: 90%;
-  //   height: 340px;
-  // }
 }
 @media (max-width: 590px) {
   .famhouse__swiper__card__entry___bottom {
@@ -1899,10 +1765,7 @@ figure {
   .luxury__section__right__image {
     height: 362px;
   }
-  // .farmhouse__swiper__picture {
-  //   width: 90%;
-  //   height: 310px;
-  // }
+
   .farm__house__content__heading {
     font-size: 30px;
   }
@@ -1941,10 +1804,7 @@ figure {
   .about__section__firstentry {
     flex-direction: column;
   }
-  // .about__section__firstentry__top__img img {
-  //   height: 370px;
-  //   width: 100%;
-  // }
+
   .headerback__second img {
     height: 350px;
     width: 381px;
@@ -1982,7 +1842,6 @@ figure {
     padding: 0em;
   }
   .famhouse__swiper__card__entry___bottom {
-    /* padding-left: 1em; */
     font-size: 15px;
     padding-left: 5px;
   }
@@ -1995,11 +1854,9 @@ figure {
     line-height: 38px;
   }
   .luxury__section__right__image {
-    height: 3s2px;
+    height: 32px;
   }
-  // .about__section__thirdentry__buttom {
-  //   width: 55%;
-  // }
+
   .farm__house__content__heading {
     font-size: 28px;
   }
@@ -2057,9 +1914,6 @@ figure {
   .about__section__firstentry__top__img img {
     height: 363px;
   }
-}
-
-@media (max-width: 450px) {
   .luxury__section__left__heading {
     line-height: 42px;
   }
