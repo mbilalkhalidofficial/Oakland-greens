@@ -1412,6 +1412,7 @@ figure {
 
   .oakland_section__weaper__overlay__entry__content {
     flex-direction: column;
+    padding-top: 4em;
   }
   .oakland_section__weaper__backimg {
     width: 100%;
@@ -1452,7 +1453,7 @@ figure {
     flex-direction: column;
     position: absolute;
     top: 100px;
-    right: 0px;
+    right: -105px;
     background-color: #1f4149;
     padding: 2em;
     border-radius: 15px;
