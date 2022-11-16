@@ -24,13 +24,17 @@ export function FeatureSectioin() {
                   alt=""
                 />
               </div>
-              <div className="feature__content__card__info">Feature 1</div>
+              <div className="feature__content__card__info">
+                {" "}
+                Epicurean Delights
+              </div>
             </div>
             <div className="feature__content__card__para">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the Lorem ipsum dolor sit amet
-              consectetur, adipisicing elit. Iure eos rem pariatur iusto
-              nesciunt minima ipsam quas aliquid harum dolor.
+              The natural Agro farms at Oakland Green spread out wide as far as
+              one can see presenting soothing sceneries. We offer you a
+              lifestyle that at its best. The wide-spread and lush green Agro
+              farmsthe best of the both worlds - serenity of the organic life &
+              luxury of the modern world.
               <industry className="lorem20"></industry>
             </div>
           </div>
@@ -50,13 +54,14 @@ export function FeatureSectioin() {
                   alt=""
                 />
               </div>
-              <div className="feature__content__card__info">Feature 2</div>
+              <div className="feature__content__card__info">Sports Complex</div>
             </div>
             <div className="feature__content__card__para">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the Lorem ipsum dolor sit amet
-              consectetur, adipisicing elit. Iure eos rem pariatur iusto
-              nesciunt minima ipsam quas aliquid harum dolor.
+              Oakland Greens has a state-of-the-art sports complex equipped with
+              both indoor & outdoor facilities. It has basketball court, tennis
+              court, table tennis, football ground, indoor & outdoor facilities.
+              cricket ground & swimming pools, all of which are well lit to be
+              accessed during the night time.
               <industry className="lorem20"></industry>
             </div>
           </div>
@@ -76,13 +81,14 @@ export function FeatureSectioin() {
                   alt=""
                 />
               </div>
-              <div className="feature__content__card__info">Feature 3</div>
+              <div className="feature__content__card__info">Water Sports</div>
             </div>
             <div className="feature__content__card__para">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the Lorem ipsum dolor sit amet
-              consectetur, adipisicing elit. Iure eos rem pariatur iusto
-              nesciunt minima ipsam quas aliquid harum dolor.
+              Oakland Greens has in place some splashy sports for a perfect
+              holiday experience. We are offering some safe yet adventurous
+              aqua-sports to ensure that you & your family have an exciting time
+              splashing around in crystal clear waters as per the ASTM standards
+              of safety.
               <industry className="lorem20"></industry>
             </div>
           </div>

@@ -79,11 +79,14 @@ export function HomeSection() {
                   Most luxury houses for more discering Customers
                 </div>
                 <div className="oakland_section__weaper__overlay__main_heading__para">
-                  Dream Home is a gated community with a great location. Located
-                  downtown, you’re within walking distance of Parks, and the
-                  best shopping, dining and entertainment Getting around is a
-                  breeze, with easy access to freeways, buses and trolleys. .
-                  Laundry is available on premises.
+                  Oakland Greens is a hidden gem nestled in the pristine lands
+                  of Taxila, spread over hectares in this both historically rich
+                  and modern site. We ensure you enjoy a serene and luxurious
+                  stay in the heart of an idyllic setting and preserved
+                  heritage. Experience the peace and quiet of the wooded parks
+                  and stroll through the paths of the tree lined lush lands,
+                  with its aromatic scents and varied flora, typical of the
+                  capital.
                 </div>
                 <div className="oakland_section__weaper__overlay__two button">
                   <div className="oakland_section__weaper__overlay__two__left">

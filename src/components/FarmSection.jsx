@@ -13,10 +13,10 @@ export function FarmSection() {
               Farm House plots
             </div>
             <div className="farm__house__content__left__para">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry.Lorem Ipsum is simply
-              dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industry.
+              At Oakland Greens, modern-day services are provided daily by a
+              sophisticated and discreet service staff of housekeepers, butlers,
+              security guards, gardeners, chefs, laundry valet and a Concierge
+              service for a truly tailor-made stay.
             </div>
           </div>
           <div className="farm__house__content__left__button">Contact Us</div>

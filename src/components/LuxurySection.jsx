@@ -14,11 +14,12 @@ export function LuxurySection() {
               Our luxury <span>upcoming</span> for more discering Customers
             </div>
             <div className="luxury__section__left__para">
-              Dream Home is a gated community with a great location. Located
-              downtown, you’re within walking distance of Parks, and the best
-              shopping, dining and entertainment Getting around is a breeze,
-              with easy access to freeways, buses and trolleys. . Laundry is
-              available on premises.
+              Oakland Greens is built and designed in line with international
+              standards of farmhouses in to make it your joyful place. During
+              your stays here, just sip signature cocktails at the restaurant
+              whilst overlooking the beautiful azure blue skies and the
+              magnificent hills or watch the glorious sunsets while you recline
+              beside the pool.
             </div>
             <div className="luxury__section__left__button">Read More</div>
           </div>

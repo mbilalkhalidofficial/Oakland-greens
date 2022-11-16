@@ -8,10 +8,9 @@ export function LocationSection() {
         <div className="location__Section">
           <div className="location__Section__text">Our location</div>
           <div className="location__Section__para">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry.Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry.
+            At Oakland Greens you will get to reconnect with the peace and
+            tranquility away from the hullabaloo of the city life. Spend those
+            precious moments with your loved ones at our lavish farmhouses.
           </div>
 
           <div className="location__Section__img">

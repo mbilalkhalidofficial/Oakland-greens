@@ -30,15 +30,15 @@ export function AboutUsSection() {
           <div className="about__section__secondentry__overlay">
             <div className="about__section__secondentry__heading">About Us</div>
             <div className="about__section__secondentry__para">
-              Dream Home is a gated community with a great location. Located
-              downtown, you’re within walking distance of Parks, and the best
-              shopping, dining and entertainment Getting around is a breeze,
-              with easy access to freeways, buses and trolleys. . Laundry is
-              available on premises.Dream Home is a gated community with a great
-              location. Located downtown, you’re within walking distance of
-              Parks, and the best shopping, dining and entertainment Getting
-              around is a breeze, with easy access to freeways, buses and
-              trolleys. . Laundry is available on premises.
+              The unmatched rustic life experience The natural Agro farms at
+              Oakland Green spread out wide as far as one can see presenting
+              soothing sceneries. We offer you a lifestyle that provides the
+              serenity at its best. The wide-spread and lush green Agro farms
+              provide the best of the both worlds - serenity of the organic life
+              & luxury of the modern world. As we ensure to have something for
+              everyone, so we have the Agro farms where you can have the best
+              gardening experience. Visit the Agro farms vegetable garden and
+              pick your own produce.
             </div>
 
             <div className="about__section__secondentry_card">
