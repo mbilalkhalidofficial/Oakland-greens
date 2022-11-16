@@ -19,7 +19,8 @@ export function LuxurySection() {
               your stays here, just sip signature cocktails at the restaurant
               whilst overlooking the beautiful azure blue skies and the
               magnificent hills or watch the glorious sunsets while you recline
-              beside the pool.
+              beside the pool.. Each service at Oakland Greens is designed to
+              make the moments unforgettable.
             </div>
             <div className="luxury__section__left__button">Read More</div>
           </div>
