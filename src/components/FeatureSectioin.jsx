@@ -28,7 +28,10 @@ export function FeatureSectioin() {
             </div>
             <div className="feature__content__card__para">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry.
+              industry. Lorem Ipsum has been the Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Iure eos rem pariatur iusto
+              nesciunt minima ipsam quas aliquid harum dolor.
+              <industry className="lorem20"></industry>
             </div>
           </div>
           <div className="feature__content__card">
@@ -51,7 +54,10 @@ export function FeatureSectioin() {
             </div>
             <div className="feature__content__card__para">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry.
+              industry. Lorem Ipsum has been the Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Iure eos rem pariatur iusto
+              nesciunt minima ipsam quas aliquid harum dolor.
+              <industry className="lorem20"></industry>
             </div>
           </div>
           <div className="feature__content__card">
@@ -74,7 +80,10 @@ export function FeatureSectioin() {
             </div>
             <div className="feature__content__card__para">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry.
+              industry. Lorem Ipsum has been the Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Iure eos rem pariatur iusto
+              nesciunt minima ipsam quas aliquid harum dolor.
+              <industry className="lorem20"></industry>
             </div>
           </div>
         </div>
